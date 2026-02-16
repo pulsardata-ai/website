@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 
 export function TerminalText({
   text,
@@ -13,15 +13,25 @@ export function TerminalText({
 }) {
   const [displayed, setDisplayed] = useState("");
   const [done, setDone] = useState(false);
+  const indexRef = useRef(0);
 
   useEffect(() => {
+    // Skip animation if reduced motion preferred
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      setDisplayed(text);
+      setDone(true);
+      return;
+    }
+
+    indexRef.current = 0;
     setDisplayed("");
     setDone(false);
-    let i = 0;
+
+    // Type 2 characters at a time to halve the number of renders
     const interval = setInterval(() => {
-      i++;
-      setDisplayed(text.slice(0, i));
-      if (i >= text.length) {
+      indexRef.current = Math.min(indexRef.current + 2, text.length);
+      setDisplayed(text.slice(0, indexRef.current));
+      if (indexRef.current >= text.length) {
         clearInterval(interval);
         setDone(true);
       }

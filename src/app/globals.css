@@ -144,6 +144,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   inset: 0;
   z-index: 50;
+  contain: strict;
   background: repeating-linear-gradient(
     0deg,
     rgba(0, 0, 0, 0.06) 0px,
@@ -162,6 +163,13 @@ h1, h2, h3, h4, h5, h6 {
     transparent 60%,
     rgba(0, 0, 0, 0.4) 100%
   );
+}
+
+/* Disable scanlines on low-power / mobile */
+@media (max-width: 768px) {
+  .scanlines {
+    display: none;
+  }
 }
 
 /* ═══════ Terminal Prompt ═══════ */
