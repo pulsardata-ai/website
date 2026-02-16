@@ -11,7 +11,6 @@ export function LanguageSwitcher() {
   const pathname = usePathname();
 
   const switchLocale = (newLocale: string) => {
-    // Remove current locale prefix if present
     let path = pathname;
     for (const loc of routing.locales) {
       if (path.startsWith(`/${loc}/`)) {
@@ -28,16 +27,16 @@ export function LanguageSwitcher() {
   };
 
   return (
-    <div className="flex items-center gap-1 font-terminal text-sm">
+    <div className="flex items-center gap-1 text-sm">
       {routing.locales.map((loc) => (
         <button
           key={loc}
           onClick={() => switchLocale(loc)}
           className={cn(
-            "px-2 py-1 uppercase transition-colors duration-200 rounded-sm",
+            "px-2 py-1 uppercase transition-colors duration-200 rounded",
             locale === loc
-              ? "text-crt-bg bg-crt-green"
-              : "text-crt-text-secondary hover:text-crt-green"
+              ? "text-bg bg-accent font-medium"
+              : "text-text-secondary hover:text-text"
           )}
         >
           {loc}

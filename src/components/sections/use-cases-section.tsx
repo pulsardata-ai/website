@@ -11,11 +11,14 @@ export function UseCasesSection() {
         <SectionHeading title={t("title")} subtitle={t("subtitle")} />
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {[0, 1, 2, 3, 4, 5].map((i) => (
-            <CrtCard key={i} title={t(`items.${i}.sector`)}>
-              <h3 className="font-heading text-sm text-crt-green mb-2">
+            <CrtCard key={i}>
+              <p className="text-accent text-xs font-medium uppercase tracking-wide mb-2">
+                {t(`items.${i}.sector`)}
+              </p>
+              <h3 className="text-sm font-semibold text-text mb-2">
                 {t(`items.${i}.title`)}
               </h3>
-              <p className="text-crt-text-secondary text-sm leading-relaxed">
+              <p className="text-text-secondary text-sm leading-relaxed">
                 {t(`items.${i}.description`)}
               </p>
             </CrtCard>

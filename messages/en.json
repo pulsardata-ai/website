@@ -37,7 +37,7 @@
   },
   "differentiators": {
     "title": "Our approach",
-    "subtitle": "> no_bullshit.exe",
+    "subtitle": "Pragmatism, expertise, results.",
     "items": [
       {
         "title": "No studies without deliverables",
@@ -55,7 +55,7 @@
   },
   "useCases": {
     "title": "Use cases",
-    "subtitle": "> use_cases --sector=enterprise",
+    "subtitle": "Concrete use cases in demanding sectors.",
     "items": [
       {
         "sector": "Aerospace",
@@ -109,7 +109,7 @@
       "description": "Agentic architecture, POC & implementation, strategic audit, and Salesforce + AI consulting."
     },
     "title": "Services",
-    "subtitle": "> cat services.yaml",
+    "subtitle": "Our service offerings.",
     "items": [
       {
         "title": "Agentic Solutions Architecture",
@@ -179,7 +179,7 @@
       "description": "18+ years of enterprise IS architecture. Solution Architect, Design Authority for international luxury group, Salesforce and agentic systems expertise."
     },
     "title": "Expertise",
-    "subtitle": "> whoami --verbose",
+    "subtitle": "A senior team, proven expertise.",
     "pascal": {
       "name": "Pascal Le Clech",
       "role": "Co-founder & Solution Architect",
@@ -227,7 +227,7 @@
       "description": "Our 4-phase methodology: discovery, audit, POC, production. Pragmatic approach, concrete deliverables, zero bullshit."
     },
     "title": "Our Approach",
-    "subtitle": "> ./methodology --phases=4",
+    "subtitle": "A 4-phase methodology, deliverables at every step.",
     "phases": [
       {
         "number": "01",
@@ -260,7 +260,7 @@
     ],
     "prerequisites": {
       "title": "No project without...",
-      "subtitle": "> assert prerequisites --strict",
+      "subtitle": "The conditions for project success.",
       "items": [
         {
           "title": "Executive sponsor",
@@ -287,7 +287,7 @@
       "description": "Contact us for a free audit or a quote request. Response within 24 business hours."
     },
     "title": "Contact",
-    "subtitle": "> ssh contact@pulsardata.ai",
+    "subtitle": "Let's talk about your project.",
     "form": {
       "name": "Name",
       "company": "Company",
@@ -327,7 +327,6 @@
   "footer": {
     "copyright": "pulsardata.ai",
     "tagline": "Enterprise Agentic Solutions Architecture & Implementation",
-    "resolution": "720x348 thinking...",
     "nav": {
       "services": "Services",
       "expertise": "Expertise",

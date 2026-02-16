@@ -37,7 +37,7 @@
   },
   "differentiators": {
     "title": "Notre approche",
-    "subtitle": "> pas_de_bullshit.exe",
+    "subtitle": "Pragmatisme, expertise, résultats.",
     "items": [
       {
         "title": "Pas d'études sans livrables",
@@ -55,7 +55,7 @@
   },
   "useCases": {
     "title": "Cas d'usage",
-    "subtitle": "> use_cases --sector=enterprise",
+    "subtitle": "Des cas concrets dans des secteurs exigeants.",
     "items": [
       {
         "sector": "Aérospatial",
@@ -109,7 +109,7 @@
       "description": "Architecture agentique, POC & implémentation, audit stratégique et accompagnement Salesforce + IA."
     },
     "title": "Services",
-    "subtitle": "> cat services.yaml",
+    "subtitle": "Nos offres d'accompagnement.",
     "items": [
       {
         "title": "Architecture de Solutions Agentiques",
@@ -179,7 +179,7 @@
       "description": "18+ ans d'architecture SI entreprise. Solution Architect, Design Authority groupe international du luxe, expertise Salesforce et systèmes agentiques."
     },
     "title": "Expertise",
-    "subtitle": "> whoami --verbose",
+    "subtitle": "Une équipe senior, des compétences prouvées.",
     "pascal": {
       "name": "Pascal Le Clech",
       "role": "Co-fondateur & Solution Architect",
@@ -227,7 +227,7 @@
       "description": "Notre méthodologie en 4 phases : découverte, audit, POC, production. Approche pragmatique, livrables concrets, zéro bullshit."
     },
     "title": "Notre Approche",
-    "subtitle": "> ./methodology --phases=4",
+    "subtitle": "Une méthodologie en 4 phases, des livrables à chaque étape.",
     "phases": [
       {
         "number": "01",
@@ -260,7 +260,7 @@
     ],
     "prerequisites": {
       "title": "Pas de projet sans...",
-      "subtitle": "> assert prerequisites --strict",
+      "subtitle": "Les conditions de réussite d'un projet.",
       "items": [
         {
           "title": "Sponsor exécutif",
@@ -287,7 +287,7 @@
       "description": "Contactez-nous pour un audit gratuit ou une demande de devis. Réponse sous 24h ouvrées."
     },
     "title": "Contact",
-    "subtitle": "> ssh contact@pulsardata.ai",
+    "subtitle": "Parlons de votre projet.",
     "form": {
       "name": "Nom",
       "company": "Entreprise",
@@ -326,8 +326,8 @@
   },
   "footer": {
     "copyright": "pulsardata.ai",
-    "tagline": "Architecture & Implémentation de Solutions Agentiques",
-    "resolution": "720x348 thinking...",
+    "tagline": "Architecture & Implémentation de Solutions Agentiques Entreprise",
+    "resolution": "",
     "nav": {
       "services": "Services",
       "expertise": "Expertise",

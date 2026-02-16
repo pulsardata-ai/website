@@ -33,45 +33,44 @@ export default function ContactPage() {
 
           {/* Info */}
           <div className="space-y-6">
-            <div className="border border-crt-border rounded-sm p-5 box-glow">
-              <p className="font-terminal text-crt-accent text-sm mb-4">
+            <div className="border border-border rounded-lg bg-bg-card p-5">
+              <p className="text-accent text-sm font-medium mb-4">
                 {t("info.response")}
               </p>
-              <div className="space-y-3 font-terminal text-sm">
+              <div className="space-y-3 text-sm">
                 <div>
-                  <span className="text-crt-green-dark">$ email</span>
-                  <p className="text-crt-text-secondary">{t("info.email")}</p>
+                  <p className="text-text-muted text-xs uppercase tracking-wide mb-0.5">Email</p>
+                  <p className="text-text-secondary">{t("info.email")}</p>
                 </div>
                 <div>
-                  <span className="text-crt-green-dark">$ linkedin</span>
+                  <p className="text-text-muted text-xs uppercase tracking-wide mb-0.5">LinkedIn</p>
                   <p>
                     <a
                       href={`https://${t("info.linkedin")}`}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-crt-text-secondary hover:text-crt-green"
+                      className="text-text-secondary hover:text-accent transition-colors"
                     >
                       {t("info.linkedin")}
                     </a>
                   </p>
                 </div>
                 <div>
-                  <span className="text-crt-green-dark">$ github</span>
+                  <p className="text-text-muted text-xs uppercase tracking-wide mb-0.5">GitHub</p>
                   <p>
                     <a
                       href={`https://${t("info.github")}`}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-crt-text-secondary hover:text-crt-green"
+                      className="text-text-secondary hover:text-accent transition-colors"
                     >
                       {t("info.github")}
                     </a>
                   </p>
                 </div>
-                <div className="pt-3 border-t border-crt-border">
-                  <span className="text-crt-green-dark">$ company</span>
-                  <p className="text-crt-text-secondary">{t("info.siret")}</p>
-                  <p className="text-crt-text-secondary">{t("info.address")}</p>
+                <div className="pt-3 border-t border-border">
+                  <p className="text-text-secondary">{t("info.siret")}</p>
+                  <p className="text-text-secondary">{t("info.address")}</p>
                 </div>
               </div>
             </div>

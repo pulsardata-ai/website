@@ -1,24 +1,17 @@
 import type { Metadata } from "next";
-import { Orbitron, VT323, IBM_Plex_Mono } from "next/font/google";
+import { Inter, IBM_Plex_Mono } from "next/font/google";
 import "./globals.css";
 
-const orbitron = Orbitron({
+const inter = Inter({
   subsets: ["latin"],
-  variable: "--font-heading",
-  display: "swap",
-});
-
-const vt323 = VT323({
-  weight: "400",
-  subsets: ["latin"],
-  variable: "--font-terminal",
+  variable: "--font-sans",
   display: "swap",
 });
 
 const ibmPlexMono = IBM_Plex_Mono({
-  weight: ["400", "500", "600", "700"],
+  weight: ["400"],
   subsets: ["latin"],
-  variable: "--font-body",
+  variable: "--font-mono",
   display: "swap",
 });
 
@@ -37,7 +30,7 @@ export default function RootLayout({
   return (
     <html suppressHydrationWarning>
       <body
-        className={`${orbitron.variable} ${vt323.variable} ${ibmPlexMono.variable} min-h-screen flex flex-col antialiased`}
+        className={`${inter.variable} ${ibmPlexMono.variable} min-h-screen flex flex-col antialiased`}
       >
         {children}
       </body>

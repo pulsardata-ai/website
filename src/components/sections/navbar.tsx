@@ -31,11 +31,11 @@ export function Navbar() {
   };
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-40 bg-crt-bg/90 backdrop-blur-sm border-b border-crt-border">
+    <nav className="fixed top-0 left-0 right-0 z-40 bg-bg/80 border-b border-border backdrop-blur-sm">
       <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
         <Link href={prefix + "/"} className="flex items-center gap-3">
-          <Logo size={32} />
-          <span className="font-heading text-sm text-crt-green text-glow hidden sm:inline">
+          <Logo size={32} priority={false} />
+          <span className="text-sm font-semibold text-text hidden sm:inline">
             pulsardata.ai
           </span>
         </Link>
@@ -47,10 +47,10 @@ export function Navbar() {
               key={item.key}
               href={prefix + item.href}
               className={cn(
-                "font-terminal text-sm uppercase tracking-wide transition-colors duration-200",
+                "text-sm transition-colors duration-200",
                 isActive(item.href)
-                  ? "text-crt-green text-glow"
-                  : "text-crt-text-secondary hover:text-crt-green"
+                  ? "text-accent"
+                  : "text-text-secondary hover:text-text"
               )}
             >
               {t(item.key)}
@@ -62,7 +62,7 @@ export function Navbar() {
         {/* Mobile hamburger */}
         <button
           onClick={() => setMobileOpen(!mobileOpen)}
-          className="md:hidden text-crt-green p-2"
+          className="md:hidden text-text-secondary p-2"
           aria-label="Menu"
         >
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -77,7 +77,7 @@ export function Navbar() {
 
       {/* Mobile menu */}
       {mobileOpen && (
-        <div className="md:hidden border-t border-crt-border bg-crt-bg/95 backdrop-blur-sm">
+        <div className="md:hidden border-t border-border bg-bg">
           <div className="px-4 py-4 flex flex-col gap-3">
             {navItems.map((item) => (
               <Link
@@ -85,16 +85,16 @@ export function Navbar() {
                 href={prefix + item.href}
                 onClick={() => setMobileOpen(false)}
                 className={cn(
-                  "font-terminal text-base uppercase tracking-wide py-2",
+                  "text-base py-2",
                   isActive(item.href)
-                    ? "text-crt-green text-glow"
-                    : "text-crt-text-secondary"
+                    ? "text-accent"
+                    : "text-text-secondary"
                 )}
               >
-                {"> "}{t(item.key)}
+                {t(item.key)}
               </Link>
             ))}
-            <div className="pt-2 border-t border-crt-border">
+            <div className="pt-2 border-t border-border">
               <LanguageSwitcher />
             </div>
           </div>

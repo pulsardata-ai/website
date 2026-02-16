@@ -4,7 +4,6 @@ import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import { Navbar } from "@/components/sections/navbar";
 import { FooterSection } from "@/components/sections/footer-section";
-import { Scanlines } from "@/components/ui/scanlines";
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -28,9 +27,8 @@ export default async function LocaleLayout({
 
   return (
     <NextIntlClientProvider messages={messages}>
-      <Scanlines />
       <Navbar />
-      <main className="flex-1 crt-boot">{children}</main>
+      <main className="flex-1">{children}</main>
       <FooterSection />
     </NextIntlClientProvider>
   );

@@ -12,13 +12,13 @@ export function CrtCard({
   return (
     <div
       className={cn(
-        "border border-crt-border rounded-sm bg-crt-bg/80 box-glow box-glow-hover transition-shadow duration-300",
+        "border border-border rounded-lg bg-bg-card hover:border-border-hover transition-colors duration-200",
         className
       )}
     >
       {title && (
-        <div className="border-b border-crt-border px-4 py-2 font-terminal text-crt-green text-sm">
-          <span className="text-crt-text-secondary">$</span> {title}
+        <div className="border-b border-border px-4 py-2 text-text-muted text-sm font-mono">
+          {title}
         </div>
       )}
       <div className="p-5">{children}</div>

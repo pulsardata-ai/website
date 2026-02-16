@@ -28,38 +28,35 @@ export default function ApprochePage() {
         {/* Phases timeline */}
         <div className="relative space-y-8 mb-16">
           {/* Vertical line */}
-          <div className="absolute left-6 top-0 bottom-0 w-px bg-crt-border hidden md:block" />
+          <div className="absolute left-6 top-0 bottom-0 w-px bg-border hidden md:block" />
 
           {[0, 1, 2, 3].map((i) => (
             <div key={i} className="relative flex gap-6">
               {/* Phase number */}
-              <div className="shrink-0 w-12 h-12 rounded-full border border-crt-green bg-crt-bg flex items-center justify-center z-10">
-                <span className="font-heading text-sm text-crt-green text-glow">
+              <div className="shrink-0 w-12 h-12 rounded-full border border-accent bg-bg flex items-center justify-center z-10">
+                <span className="text-sm font-semibold text-accent">
                   {t(`phases.${i}.number`)}
                 </span>
               </div>
 
               {/* Content */}
-              <CrtCard
-                title={`phase_${t(`phases.${i}.number`)}`}
-                className="flex-1"
-              >
+              <CrtCard className="flex-1">
                 <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 mb-3">
-                  <h3 className="font-heading text-lg text-crt-green">
+                  <h3 className="text-lg font-semibold text-text">
                     {t(`phases.${i}.title`)}
                   </h3>
-                  <span className="font-terminal text-crt-accent text-xs">
+                  <span className="text-accent text-xs font-mono">
                     {t(`phases.${i}.duration`)}
                   </span>
                 </div>
-                <p className="text-crt-text-secondary text-sm leading-relaxed mb-4">
+                <p className="text-text-secondary text-sm leading-relaxed mb-4">
                   {t(`phases.${i}.description`)}
                 </p>
                 <div className="flex flex-wrap gap-2">
                   {[0, 1, 2, 3].map((j) => (
                     <span
                       key={j}
-                      className="inline-block px-2 py-0.5 text-xs font-terminal border border-crt-border text-crt-green-medium rounded-sm"
+                      className="inline-block px-2 py-0.5 text-xs border border-border text-text-secondary rounded"
                     >
                       {t(`phases.${i}.outputs.${j}`)}
                     </span>
@@ -78,14 +75,14 @@ export default function ApprochePage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {[0, 1, 2, 3].map((i) => (
             <div key={i} className="flex items-start gap-3">
-              <span className="font-terminal text-crt-accent text-lg shrink-0">
-                [!]
+              <span className="text-accent text-lg shrink-0">
+                &bull;
               </span>
               <div>
-                <h4 className="font-heading text-sm text-crt-green mb-1">
+                <h4 className="text-sm font-semibold text-text mb-1">
                   {t(`prerequisites.items.${i}.title`)}
                 </h4>
-                <p className="text-crt-text-secondary text-sm leading-relaxed">
+                <p className="text-text-secondary text-sm leading-relaxed">
                   {t(`prerequisites.items.${i}.description`)}
                 </p>
               </div>

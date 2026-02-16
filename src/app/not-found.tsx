@@ -2,20 +2,20 @@ import Link from "next/link";
 
 export default function NotFound() {
   return (
-    <div className="min-h-screen flex items-center justify-center px-4">
+    <div className="min-h-screen flex items-center justify-center px-4 bg-bg text-text">
       <div className="text-center">
-        <h1 className="text-6xl md:text-8xl font-heading text-crt-green text-glow-lg mb-4">
+        <h1 className="text-6xl md:text-8xl font-semibold text-accent mb-4">
           404
         </h1>
-        <p className="font-terminal text-crt-accent text-lg mb-2">
-          SEGFAULT : page introuvable
+        <p className="text-text-secondary text-lg mb-2">
+          Page introuvable
         </p>
-        <p className="text-crt-text-secondary text-sm mb-8">
+        <p className="text-text-muted text-sm mb-8">
           L&apos;adresse demandee n&apos;existe pas ou a ete deplacee.
         </p>
         <Link
           href="/"
-          className="inline-block px-6 py-3 border border-crt-green text-crt-green font-heading text-sm uppercase tracking-wider rounded-sm hover:bg-crt-green/10 transition-all"
+          className="inline-block px-6 py-3 border border-border text-text-secondary text-sm rounded-lg hover:border-accent hover:text-accent transition-colors"
         >
           Retour a l&apos;accueil
         </Link>
