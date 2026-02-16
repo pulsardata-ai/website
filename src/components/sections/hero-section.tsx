@@ -1,5 +1,4 @@
 import { useTranslations } from "next-intl";
-import { Logo } from "@/components/logo";
 import { GlowButton } from "@/components/ui/glow-button";
 
 export function HeroSection() {
@@ -17,9 +16,6 @@ export function HeroSection() {
         aria-hidden="true"
       />
       <div className="relative z-10 max-w-4xl mx-auto px-4 text-center py-32">
-        <div className="flex justify-center mb-10">
-          <Logo size={100} />
-        </div>
         <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold leading-tight mb-6">
           {t("title")}
         </h1>

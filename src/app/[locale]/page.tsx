@@ -5,6 +5,7 @@ import { HeroSection } from "@/components/sections/hero-section";
 import { ValuePropositionSection } from "@/components/sections/value-proposition-section";
 import { DifferentiatorsSection } from "@/components/sections/differentiators-section";
 import { UseCasesSection } from "@/components/sections/use-cases-section";
+import { GovernanceSection } from "@/components/sections/governance-section";
 import { CtaSection } from "@/components/sections/cta-section";
 
 export async function generateMetadata({
@@ -30,6 +31,7 @@ export default function HomePage() {
       <HeroSection />
       <ValuePropositionSection />
       <DifferentiatorsSection />
+      <GovernanceSection />
       <UseCasesSection />
       <CtaSection />
     </>

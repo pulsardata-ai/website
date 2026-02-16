@@ -53,6 +53,29 @@
       }
     ]
   },
+  "governance": {
+    "title": "Governing agentic automation",
+    "subtitle": "Agentic architecture restructures your processes. Every automation must be governed.",
+    "intro": "Deploying agents into an enterprise IS is not just writing code. Agents make decisions, execute actions, modify data — they de facto restructure your business processes. Without explicit governance, you lose control of your value chain. We design the governance framework alongside the technical architecture.",
+    "pillars": [
+      {
+        "title": "Automated decision mapping",
+        "description": "Every agent makes decisions that were previously human. We map precisely which decisions are delegated, at what autonomy level, with what escalation thresholds. No automation without a responsibility matrix (agentic RACI) validated by the business."
+      },
+      {
+        "title": "Control loops and escalation",
+        "description": "Human-in-the-loop is not a checkbox — it is an architecture. We define control points, confidence thresholds below which the agent escalates, business validation circuits, and rollback mechanisms. Every automation has a path back to human control."
+      },
+      {
+        "title": "Transformed process observability",
+        "description": "When an agent restructures a process, the KPIs change. We instrument every automated flow: decision traceability, quality metrics, cost per execution, human intervention rate. Operational dashboards, not monthly reports."
+      },
+      {
+        "title": "Change management and adoption",
+        "description": "Teams whose processes are automated need to understand what the agent does, when it acts, and how to supervise it. We deliver governance documentation, supervision procedures, and training so your teams govern — not endure — the automation."
+      }
+    ]
+  },
   "useCases": {
     "title": "Where this matters",
     "subtitle": "Technically demanding environments where agents must be correct, not just impressive.",

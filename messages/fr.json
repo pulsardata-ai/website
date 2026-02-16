@@ -53,6 +53,29 @@
       }
     ]
   },
+  "governance": {
+    "title": "Gouvernance de l'automatisation agentique",
+    "subtitle": "L'architecture agentique restructure vos processus. Chaque automatisation doit être pilotée.",
+    "intro": "Déployer des agents dans un SI d'entreprise ne se limite pas à écrire du code. Les agents prennent des décisions, exécutent des actions, modifient des données — ils restructurent de fait vos processus métier. Sans gouvernance explicite, vous perdez le contrôle de votre chaîne de valeur. Nous concevons le cadre de pilotage en même temps que l'architecture technique.",
+    "pillars": [
+      {
+        "title": "Cartographie des décisions automatisées",
+        "description": "Chaque agent prend des décisions qui étaient auparavant humaines. Nous cartographions précisément quelles décisions sont déléguées, à quel niveau d'autonomie, avec quels seuils d'escalade. Pas d'automatisation sans matrice de responsabilité (RACI agentique) validée par le métier."
+      },
+      {
+        "title": "Boucles de contrôle et escalade",
+        "description": "Human-in-the-loop n'est pas un checkbox — c'est une architecture. Nous définissons les points de contrôle, les seuils de confiance en dessous desquels l'agent escalade, les circuits de validation métier, et les mécanismes de rollback. Chaque automatisation a un chemin de reprise en main humaine."
+      },
+      {
+        "title": "Observabilité des processus transformés",
+        "description": "Quand un agent restructure un processus, les KPIs changent. Nous instrumentons chaque flux automatisé : traçabilité des décisions, métriques de qualité, coût par exécution, taux d'intervention humaine. Des dashboards opérationnels, pas des rapports mensuels."
+      },
+      {
+        "title": "Conduite du changement et adoption",
+        "description": "Les équipes qui voient leurs processus automatisés doivent comprendre ce que l'agent fait, quand il intervient, et comment le superviser. Nous livrons la documentation de gouvernance, les procédures de supervision et les formations nécessaires pour que vos équipes pilotent — pas subissent — l'automatisation."
+      }
+    ]
+  },
   "useCases": {
     "title": "Cas d'usage",
     "subtitle": "Architectures agentiques déployées dans des contextes SI exigeants.",
