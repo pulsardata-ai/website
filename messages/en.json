@@ -20,7 +20,7 @@
   },
   "codeShowcase": {
     "label": "What we actually ship",
-    "caption": "Google ADK — Multi-agent topology with bounded MCP tools per agent, sequential pipeline, and human review checkpoint. Architect-grade code, not a demo."
+    "caption": "Google ADK — Orchestrator agent with specialized sub-agents, bounded MCP tools per agent, confidence thresholds, and human escalation gate. Architect-grade code, not a demo."
   },
   "archimate": {
     "label": "Architecture — ArchiMate view",

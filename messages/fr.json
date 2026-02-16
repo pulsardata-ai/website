@@ -20,7 +20,7 @@
   },
   "codeShowcase": {
     "label": "Ce que nous livrons",
-    "caption": "Google ADK — Topologie multi-agents avec outils MCP bornés par agent, pipeline séquentiel et checkpoint de validation humaine. Du code d'architecte, pas de démo."
+    "caption": "Google ADK — Agent orchestrateur avec sous-agents spécialisés, outils MCP bornés par agent, seuils de confiance et escalade humaine. Du code d'architecte, pas de démo."
   },
   "archimate": {
     "label": "Architecture — vue ArchiMate",

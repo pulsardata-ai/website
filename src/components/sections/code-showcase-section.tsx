@@ -4,11 +4,12 @@ const codeSnippet = `from google.adk.agents import LlmAgent, SequentialAgent
 from google.adk.tools import agent_tool
 from tools.mcp import salesforce, confluence, jira
 
-# Specialized agents — bounded MCP tools per agent
+# --- Sub-agents: each bounded to its own MCP tools ---
+
 classifier = LlmAgent(
     name="DocumentClassifier",
     model="gemini-2.5-pro",
-    instruction="Classify incoming documents by type and urgency.",
+    instruction="Classify document by type, urgency, regulatory scope.",
     tools=[confluence],
     output_key="classification",
 )
@@ -29,10 +30,22 @@ validator = LlmAgent(
     output_key="validation_report",
 )
 
-# Orchestration — sequential pipeline with human gate
+human_review = LlmAgent(
+    name="HumanGate",
+    model="gemini-2.5-pro",
+    instruction="""If validation_report.confidence < 0.85:
+      escalate to human reviewer with full context.
+      Otherwise: auto-approve and route to next step.""",
+    output_key="final_decision",
+)
+
+# --- Orchestrator: chains sub-agents in sequence ---
+# Each agent receives the output_key of the previous one
+# The pipeline is fully observable via LangSmith traces
+
 root_agent = SequentialAgent(
     name="DocumentProcessingPipeline",
-    description="Enterprise document intake → extract → validate.",
+    description="Enterprise intake → classify → extract → validate → gate.",
     sub_agents=[classifier, extractor, validator, human_review],
 )`;
 
@@ -52,7 +65,7 @@ export function CodeShowcaseSection() {
             <span className="w-2.5 h-2.5 rounded-full bg-[#febc2e]" />
             <span className="w-2.5 h-2.5 rounded-full bg-[#28c840]" />
             <span className="text-text-muted text-xs font-mono ml-3">
-              agent_topology.py
+              orchestrator.py
             </span>
           </div>
           {/* Code content */}
