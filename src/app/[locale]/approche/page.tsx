@@ -41,13 +41,10 @@ export default function ApprochePage() {
 
               {/* Content */}
               <CrtCard className="flex-1">
-                <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 mb-3">
+                <div className="mb-3">
                   <h3 className="text-lg font-semibold text-text">
                     {t(`phases.${i}.title`)}
                   </h3>
-                  <span className="text-accent text-xs font-mono">
-                    {t(`phases.${i}.duration`)}
-                  </span>
                 </div>
                 <p className="text-text-secondary text-sm leading-relaxed mb-4">
                   {t(`phases.${i}.description`)}

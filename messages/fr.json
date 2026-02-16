@@ -1,9 +1,9 @@
 {
   "meta": {
-    "title": "pulsardata.ai | Architecture & Implémentation de Solutions Agentiques Entreprise",
-    "description": "Consultance boutique spécialisée en architecture et implémentation de solutions agentiques pour l'entreprise. Expertise Salesforce, EU AI Act, intégration stack existant.",
-    "ogTitle": "pulsardata.ai - Solutions Agentiques Entreprise",
-    "ogDescription": "Architecture, implémentation et conformité de solutions IA agentiques. Équipe senior, approche pragmatique, résultats mesurables."
+    "title": "pulsardata.ai | Architectes de Systèmes Agentiques pour le SI d'Entreprise",
+    "description": "Cabinet d'architecture spécialisé en systèmes multi-agents pour l'entreprise. Maîtrise complète du spectre agentique : MCP, A2A, orchestration multi-agents, intégration SI, conformité EU AI Act.",
+    "ogTitle": "pulsardata.ai - Architecture Agentique Entreprise",
+    "ogDescription": "De l'architecture décisionnelle à l'implémentation production. Orchestration multi-agents, protocoles MCP/A2A, intégration SI existant, gouvernance et conformité."
   },
   "nav": {
     "home": "Accueil",
@@ -13,159 +13,159 @@
     "contact": "Contact"
   },
   "hero": {
-    "title": "Architecture & Implémentation de Solutions Agentiques Entreprise",
-    "subtitle": "Nous concevons et déployons des agents IA qui s'intègrent à votre stack existant, respectent vos contraintes réglementaires et délivrent des résultats mesurables.",
-    "cta1": "Audit gratuit 30 min",
+    "title": "Architectes du SI Agentique d'Entreprise",
+    "subtitle": "Nous maîtrisons le spectre complet de l'architecture agentique — des patterns d'orchestration multi-agents à l'intégration dans votre SI, en passant par les protocoles MCP et A2A, la gouvernance et la mise en production. L'expertise d'architectes SI seniors, appliquée aux systèmes autonomes.",
+    "cta1": "Cadrage technique 30 min",
     "cta2": "Découvrir nos services"
   },
   "valueProposition": {
-    "title": "Ce que nous faisons",
+    "title": "Notre périmètre d'intervention",
     "items": [
       {
-        "title": "Architecture Agentique",
-        "description": "Conception de systèmes multi-agents sur mesure : orchestration, mémoire, outils, guardrails. Architectures documentées en C4/ArchiMate, ADRs inclus."
+        "title": "Architecture de Systèmes Multi-Agents",
+        "description": "Conception de topologies agentiques adaptées à vos contraintes : orchestration (ReAct, Plan-and-Execute, reflection), communication inter-agents via A2A, exposition d'outils via MCP, mémoire contextuelle, structured outputs. Architectures modélisées en C4, décisions tracées en ADR."
       },
       {
-        "title": "Conformité EU AI Act",
-        "description": "Classification des risques, documentation technique, registre des systèmes IA, évaluation d'impact. Prêt pour l'audit avant la deadline."
+        "title": "Alignement, Sécurité & Gouvernance",
+        "description": "Au-delà des guardrails : safety boundaries formalisées, human-in-the-loop governance, observabilité des chaînes de raisonnement, classification EU AI Act, registre des traitements IA, évaluation d'impact. Chaque agent est auditable et explicable."
       },
       {
-        "title": "Intégration Stack Existant",
-        "description": "Salesforce, SAP, ServiceNow, legacy APIs. Vos agents s'intègrent à votre SI sans migration disruptive ni dette technique supplémentaire."
+        "title": "Intégration SI & Maillage Agentique",
+        "description": "Connexion des agents à votre patrimoine applicatif via MCP servers, API Management (MuleSoft, Apigee), event-driven architecture et connecteurs natifs Salesforce, SAP, ServiceNow. Pas de migration : vos agents s'insèrent dans l'existant comme une couche d'intelligence sur votre SI."
       }
     ]
   },
   "differentiators": {
-    "title": "Notre approche",
-    "subtitle": "Pragmatisme, expertise, résultats.",
+    "title": "Ce qui nous distingue",
+    "subtitle": "Rigueur architecturale. Profondeur technique. Livrables exploitables.",
     "items": [
       {
-        "title": "Pas d'études sans livrables",
-        "description": "Chaque mission produit du code, de l'architecture documentée ou un POC fonctionnel. Zéro slide deck sans substance."
+        "title": "Architecture-first, pas slide-first",
+        "description": "Chaque mission produit une architecture C4 complète, des ADRs argumentés, des spécifications d'agents et du code déployable. Pas de decks stratosphériques sans ancrage technique."
       },
       {
-        "title": "Architectures validées en prod",
-        "description": "18+ ans d'architecture SI enterprise. Nos designs passent les revues d'architecture, les audits sécurité et les contraintes de scalabilité."
+        "title": "18+ ans de SI enterprise en production",
+        "description": "Design Authority d'un groupe international, intégration de systèmes distribués à grande échelle, gouvernance technique multi-entités. Nos architectures passent les revues d'architecture, les audits sécurité RSSI et les contraintes de scalabilité d'un SI réel."
       },
       {
-        "title": "Équipe senior uniquement",
-        "description": "Équipe senior, pas de juniors en sous-traitance. Vous travaillez directement avec les architectes qui conçoivent et implémentent."
+        "title": "Séniors qui conçoivent et implémentent",
+        "description": "Pas de juniors, pas de sous-traitance, pas de staffing variable. Vous travaillez directement avec les architectes qui modélisent vos systèmes, écrivent le code et accompagnent la mise en production."
       }
     ]
   },
   "useCases": {
     "title": "Cas d'usage",
-    "subtitle": "Des cas concrets dans des secteurs exigeants.",
+    "subtitle": "Architectures agentiques déployées dans des contextes SI exigeants.",
     "items": [
       {
         "sector": "Aérospatial",
         "title": "Devis technique automatisé",
-        "description": "Agent de génération de devis complexes intégrant nomenclatures, contraintes réglementaires et historique fournisseurs."
+        "description": "Agent Plan-and-Execute orchestrant la résolution de nomenclatures multi-niveaux, l'interrogation de bases fournisseurs via MCP servers, l'application de contraintes réglementaires ITAR/EAR et la génération de devis structurés. RAG sur corpus technique propriétaire avec vector database."
       },
       {
         "sector": "Luxe & Retail",
-        "title": "Conformité GDPR multi-marques",
-        "description": "Système agentique de surveillance et remédiation des flux de données clients à travers les marques d'un groupe."
+        "title": "Gouvernance données clients multi-marques",
+        "description": "Maillage d'agents spécialisés par domaine (consentement, lignage, qualité) communiquant via A2A pour surveiller, auditer et remédier les flux de données clients à travers les SI de chaque maison. Observabilité complète des décisions automatisées."
       },
       {
         "sector": "CRM & Ventes",
         "title": "CRM agentique Salesforce",
-        "description": "Agents intégrés à Salesforce pour qualification automatique, enrichissement de leads et recommandations de next-best-action."
+        "description": "Agents intégrés à Salesforce via Agentforce et MCP, exploitant les données CRM en temps réel pour qualification, enrichissement et scoring de leads. Orchestration ReAct avec function calling sur APIs internes, structured outputs injectés dans les flows Sales Cloud."
       },
       {
         "sector": "Pharma & Santé",
         "title": "Documentation réglementée",
-        "description": "Génération et vérification automatisée de documentation conforme aux normes FDA/EMA avec traçabilité complète."
+        "description": "Chaîne d'agents avec pattern reflection pour la génération, la vérification croisée et la validation de documentation conforme FDA/EMA. Traçabilité complète du raisonnement, human-in-the-loop sur les décisions critiques, audit trail immutable."
       },
       {
         "sector": "Services Financiers",
-        "title": "Customer service intelligent",
-        "description": "Agents conversationnels de niveau 1-2 avec escalade intelligente, conformes aux exigences bancaires (DORA, MiFID II)."
+        "title": "Service client niveau 1-2 conforme",
+        "description": "Agents conversationnels avec orchestration multi-niveaux, escalade contextuelle vers opérateurs humains, safety boundaries strictes sur les données sensibles. Architecture conforme DORA et MiFID II, observabilité des échanges via LangSmith."
       },
       {
         "sector": "Data & Gouvernance",
         "title": "Data governance agentique",
-        "description": "Agents de catalogage, lignage et qualité des données, intégrés à vos outils de data management existants."
+        "description": "Agents de catalogage automatisé, de lignage par analyse statique et dynamique, et de contrôle qualité en continu. Intégration native aux data catalogs existants (Collibra, Alation) via MCP servers, alertes et remédiation orchestrées."
       }
     ]
   },
   "cta": {
-    "title": "Prêt à commencer ?",
-    "subtitle": "Deux façons de démarrer, zéro engagement.",
+    "title": "Prêt à structurer votre approche agentique ?",
+    "subtitle": "Deux points d'entrée, zéro engagement.",
     "audit": {
-      "title": "Audit gratuit 30 min",
-      "description": "Un échange technique avec un architecte senior pour évaluer votre cas d'usage et identifier les quick wins.",
+      "title": "Cadrage technique 30 min",
+      "description": "Un échange direct avec un architecte SI senior pour analyser votre contexte, évaluer la faisabilité technique et identifier les premiers patterns agentiques pertinents.",
       "button": "Réserver un créneau"
     },
     "whitepaper": {
       "title": "Livre blanc technique",
-      "description": "\"Architecture de Solutions Agentiques en Entreprise\" - Patterns, anti-patterns et guide d'implémentation.",
+      "description": "\"Patterns d'Architecture Agentique en SI d'Entreprise\" — Topologies multi-agents, protocoles MCP/A2A, patterns d'orchestration, intégration SI et anti-patterns courants.",
       "button": "Télécharger le livre blanc"
     }
   },
   "services": {
     "meta": {
       "title": "Services | pulsardata.ai",
-      "description": "Architecture agentique, POC & implémentation, audit stratégique et accompagnement Salesforce + IA."
+      "description": "Architecture agentique, POC & implémentation production, audit de maturité IA, accompagnement Salesforce + agents IA."
     },
     "title": "Services",
-    "subtitle": "Nos offres d'accompagnement.",
+    "subtitle": "Quatre offres structurées, adaptables à votre contexte SI.",
     "items": [
       {
-        "title": "Architecture de Solutions Agentiques",
-        "what": "Conception d'architectures multi-agents sur mesure pour vos cas d'usage métier. Du schéma d'orchestration à la spécification des guardrails, en passant par le choix des frameworks et la stratégie de déploiement.",
+        "title": "Architecture de Systèmes Agentiques",
+        "what": "Conception d'architectures multi-agents alignées sur votre SI et vos contraintes métier. Choix des patterns d'orchestration (ReAct, Plan-and-Execute, reflection, routing), définition des protocoles inter-agents (A2A), spécification des tool servers (MCP), stratégie de mémoire et de persistance, safety boundaries et human-in-the-loop governance.",
         "deliverables": [
-          "Architecture documentée et actionnable",
-          "Spécifications techniques des agents",
-          "Plan d'intégration SI",
-          "Analyse des risques",
-          "Recommandations d'implémentation"
+          "Architecture C4 complète (contexte, conteneurs, composants, code)",
+          "ADRs (Architecture Decision Records) argumentés",
+          "Spécifications d'agents : rôles, outils, structured outputs, contraintes",
+          "Plan d'intégration SI avec cartographie des dépendances",
+          "Modèle de menaces et recommandations sécurité"
         ],
         "format": "2 à 4 semaines",
         "pricing": "Sur devis",
-        "target": "DSI, CTO, Directeurs Innovation"
+        "target": "DSI, CTO, Directeurs Architecture"
       },
       {
-        "title": "POC & Implémentation",
-        "what": "Du proof-of-concept à la mise en production. Nous développons, testons et déployons vos agents IA avec une approche itérative et des livrables à chaque sprint.",
+        "title": "POC & Implémentation Production",
+        "what": "Du proof-of-concept instrumenté à la mise en production supervisée. Développement itératif des agents avec le Claude SDK / LangGraph, intégration MCP servers, pipelines d'évaluation (evals), observabilité (LangSmith, Phoenix), CI/CD et monitoring. Chaque sprint livre du code testé et déployable.",
         "deliverables": [
-          "POC fonctionnel avec métriques",
-          "Code source documenté",
-          "Pipeline de déploiement",
-          "Documentation et formation",
-          "Transfert de compétences"
+          "POC fonctionnel avec métriques d'évaluation (latence, coût, qualité)",
+          "Code source documenté, testé, containerisé",
+          "Pipeline CI/CD et infrastructure as code",
+          "Stack d'observabilité configurée (traces, métriques, alertes)",
+          "Transfert de compétences structuré avec documentation opérationnelle"
         ],
-        "format": "POC : 4 à 6 semaines / Full : 2 à 6 mois",
+        "format": "POC : 4 à 6 semaines / Production : 2 à 6 mois",
         "pricing": "Sur devis",
-        "target": "Équipes tech, Product Owners, DSI"
+        "target": "Équipes Engineering, Tech Leads, DSI"
       },
       {
-        "title": "Audit & Stratégie Agentique",
-        "what": "Évaluation de votre maturité IA, identification des cas d'usage à fort ROI et feuille de route d'implémentation. Inclut l'analyse de conformité EU AI Act.",
+        "title": "Audit de Maturité & Stratégie Agentique",
+        "what": "Évaluation de votre patrimoine SI sous l'angle agentique : cartographie des systèmes candidats, analyse de maturité data et API, identification des cas d'usage à ROI démontrable, scoring de conformité EU AI Act. Livraison d'une feuille de route priorisée et chiffrée, présentable en COMEX.",
         "deliverables": [
-          "Rapport d'audit et scoring de maturité",
-          "Cartographie des cas d'usage priorisés",
-          "Analyse de conformité EU AI Act",
-          "Feuille de route d'implémentation",
-          "Estimation budgétaire"
+          "Rapport d'audit avec scoring de maturité agentique",
+          "Cartographie des cas d'usage priorisés par ROI et faisabilité",
+          "Analyse de conformité EU AI Act (classification des risques, gap analysis)",
+          "Feuille de route 6-18 mois avec jalons et dépendances",
+          "Estimation budgétaire détaillée (build, run, licences)"
         ],
         "format": "1 à 2 semaines",
         "pricing": "Sur devis",
-        "target": "COMEX, CDO, Directeurs Stratégie"
+        "target": "COMEX, DSI, CDO, RSSI"
       },
       {
-        "title": "Accompagnement Salesforce + IA",
-        "what": "Intégration d'agents IA dans votre écosystème Salesforce : Agentforce, Einstein, flows augmentés, intégration CRM avec LLMs externes.",
+        "title": "Accompagnement Salesforce + IA Agentique",
+        "what": "Intégration d'agents IA dans votre écosystème Salesforce : configuration Agentforce, exposition des données CRM via MCP servers, orchestration d'agents externes avec les flows Salesforce, enrichissement Einstein, connexion de LLMs externes (Claude, GPT) avec structured outputs injectés dans vos objets Salesforce.",
         "deliverables": [
-          "Architecture d'intégration Salesforce + agents",
-          "Configuration Agentforce / Einstein",
-          "Développement de flows augmentés",
-          "Tests et validation",
-          "Documentation et transfert"
+          "Architecture d'intégration Salesforce + agents (MCP, API, events)",
+          "Configuration et personnalisation Agentforce / Einstein",
+          "Développement d'agents et flows augmentés par LLM",
+          "Tests d'intégration, de performance et de sécurité",
+          "Documentation technique et transfert aux équipes Salesforce"
         ],
         "format": "Sur mesure",
         "pricing": "Sur devis",
-        "target": "Équipes Salesforce, Admins CRM, DSI"
+        "target": "Équipes Salesforce, Architectes CRM, DSI"
       }
     ],
     "deliverables_label": "Livrables",
@@ -176,19 +176,19 @@
   "expertise": {
     "meta": {
       "title": "Expertise | pulsardata.ai",
-      "description": "18+ ans d'architecture SI entreprise. Solution Architect, Design Authority groupe international du luxe, expertise Salesforce et systèmes agentiques."
+      "description": "18+ ans d'architecture SI enterprise. Design Authority groupe international du luxe. Maîtrise complète de la stack agentique : orchestration, MCP, A2A, observabilité, conformité."
     },
     "title": "Expertise",
-    "subtitle": "Une équipe senior, des compétences prouvées.",
+    "subtitle": "Architectes SI seniors spécialisés en systèmes agentiques.",
     "pascal": {
       "name": "Pascal Le Clech",
-      "role": "Co-fondateur & Solution Architect",
-      "bio": "18+ ans d'expérience en architecture de systèmes d'information d'entreprise. Ancien Design Authority d'un groupe international du luxe où il a conçu et supervisé les architectures SI multi-marques. Expertise pointue en intégration de systèmes complexes, API management et gouvernance technique.",
+      "role": "Co-fondateur & Architecte Solutions Agentiques",
+      "bio": "18+ ans d'architecture SI enterprise à grande échelle. Ancien Design Authority d'un groupe international du luxe : conception et gouvernance des architectures multi-marques, pilotage des revues d'architecture, standardisation des patterns d'intégration. Aujourd'hui, cette rigueur d'architecte SI est appliquée à la conception de systèmes agentiques production-grade — une combinaison rare entre maîtrise des contraintes enterprise (sécurité, scalabilité, gouvernance) et expertise de pointe en IA agentique (orchestration multi-agents, MCP, A2A, structured outputs).",
       "highlights": [
-        "Design Authority – Groupe international du luxe",
-        "Solution Architect certifié Salesforce",
-        "18+ ans d'architecture SI enterprise",
-        "Expert intégration systèmes complexes"
+        "Design Authority – Groupe international du luxe (architecture SI multi-marques)",
+        "Solution Architect certifié Salesforce – intégration CRM et écosystème agentique",
+        "18+ ans d'architecture SI enterprise – intégration, API management, gouvernance",
+        "Expertise agentique complète – MCP, A2A, orchestration, observabilité, conformité"
       ]
     },
     "team": {
@@ -196,27 +196,31 @@
       "matthieu": {
         "name": "Matthieu Le Clech",
         "role": "Co-fondateur & CEO Pragmatan",
-        "description": "Entrepreneur et fondateur de Pragmatan, leader français du RPO (Recruitment Process Outsourcing) avec 200+ collaborateurs. Expertise en scaling d'organisations, stratégie commerciale et développement business dans le secteur IT."
+        "description": "Entrepreneur et fondateur de Pragmatan, acteur de référence du RPO (Recruitment Process Outsourcing) en France avec 200+ collaborateurs. Expertise en structuration d'organisations à forte croissance, stratégie commerciale et développement business dans le secteur IT et Services."
       }
     },
     "techStack": {
-      "title": "Compétences techniques",
+      "title": "Stack technique maîtrisée",
       "categories": [
         {
-          "title": "Frameworks Agentiques",
-          "items": ["LangChain / LangGraph", "CrewAI", "AutoGen", "Semantic Kernel", "Salesforce Agentforce"]
+          "title": "Frameworks & SDK Agentiques",
+          "items": ["Claude SDK (Anthropic)", "LangChain / LangGraph", "CrewAI", "AutoGen / Semantic Kernel", "Salesforce Agentforce"]
         },
         {
-          "title": "Architectures & Patterns",
-          "items": ["Multi-agent orchestration", "RAG avancé", "Function calling", "Agent memory systems", "Guardrails & safety"]
+          "title": "Protocoles & Patterns d'Orchestration",
+          "items": ["MCP (Model Context Protocol)", "A2A (Agent-to-Agent)", "ReAct / Plan-and-Execute / Reflection", "Structured outputs & function calling", "Agentic mesh & multi-agent routing"]
         },
         {
-          "title": "Enterprise",
-          "items": ["Salesforce (Sales, Service, Marketing Cloud)", "SAP integration", "ServiceNow", "API Management (MuleSoft, Apigee)", "Event-driven architecture"]
+          "title": "Observabilité & Évaluation",
+          "items": ["LangSmith (tracing, evals)", "Phoenix (Arize)", "Vector databases (Pinecone, Weaviate, pgvector)", "RAG avancé (hybrid search, reranking)", "Pipelines d'évaluation (evals, benchmarks)"]
+        },
+        {
+          "title": "Enterprise SI & Intégration",
+          "items": ["Salesforce (Sales, Service, Marketing Cloud)", "SAP / ServiceNow / legacy APIs", "API Management (MuleSoft, Apigee)", "Event-driven architecture (Kafka, EventBridge)", "C4 modeling / ArchiMate / ADR"]
         },
         {
           "title": "Conformité & Gouvernance",
-          "items": ["EU AI Act", "GDPR / RGPD", "DORA", "ISO 27001", "C4 / ArchiMate / ADR"]
+          "items": ["EU AI Act (classification, registre, impact)", "RGPD / DORA / MiFID II", "ISO 27001 / security by design", "Human-in-the-loop governance", "Audit trail & explicabilité"]
         }
       ]
     }
@@ -224,59 +228,55 @@
   "approach": {
     "meta": {
       "title": "Approche | pulsardata.ai",
-      "description": "Notre méthodologie en 4 phases : découverte, audit, POC, production. Approche pragmatique, livrables concrets, zéro bullshit."
+      "description": "Méthodologie en 4 phases : cadrage, architecture, POC instrumenté, production supervisée. Livrables exploitables à chaque étape, rigueur d'architecte SI."
     },
     "title": "Notre Approche",
-    "subtitle": "Une méthodologie en 4 phases, des livrables à chaque étape.",
+    "subtitle": "Quatre phases, des livrables exploitables à chaque jalon.",
     "phases": [
       {
         "number": "01",
-        "title": "Découverte",
-        "duration": "30 min – Gratuit",
-        "description": "Échange technique pour comprendre votre contexte, identifier les cas d'usage et évaluer la faisabilité. Aucun engagement.",
-        "outputs": ["Compréhension du contexte métier", "Identification des quick wins", "Estimation de faisabilité", "Proposition d'approche"]
+        "title": "Cadrage technique",
+        "description": "Échange direct avec un architecte senior pour cartographier votre contexte SI, qualifier les cas d'usage et évaluer la faisabilité technique. Pas de questionnaire générique : une analyse structurée de votre patrimoine applicatif et de vos contraintes.",
+        "outputs": ["Cartographie SI et points d'intégration identifiés", "Cas d'usage qualifiés et priorisés", "Évaluation de faisabilité technique argumentée", "Proposition d'approche et estimation de charge"]
       },
       {
         "number": "02",
-        "title": "Audit & Architecture",
-        "duration": "1 à 4 semaines",
-        "description": "Analyse approfondie de votre SI, conception de l'architecture cible et planification de l'implémentation.",
-        "outputs": ["Document d'architecture", "ADRs et spécifications", "Plan d'intégration", "Estimation budgétaire"]
+        "title": "Architecture & Spécifications",
+        "description": "Conception de l'architecture cible en C4, rédaction des ADRs, spécification des agents (rôles, outils MCP, structured outputs, safety boundaries), plan d'intégration SI et modèle de menaces.",
+        "outputs": ["Architecture C4 complète et ADRs", "Spécifications d'agents et protocoles inter-agents", "Plan d'intégration SI avec dépendances", "Modèle de menaces et exigences de sécurité"]
       },
       {
         "number": "03",
-        "title": "POC",
-        "duration": "4 à 6 semaines",
-        "description": "Développement d'un proof-of-concept fonctionnel sur un périmètre restreint pour valider l'approche et mesurer les résultats.",
-        "outputs": ["POC déployable", "Métriques de performance", "Rapport de validation", "Go/no-go argumenté"]
+        "title": "POC instrumenté",
+        "description": "Développement d'un POC sur périmètre contrôlé avec métriques d'évaluation dès le premier jour : latence, coût par requête, qualité des outputs, taux d'hallucination. Observabilité intégrée, pas de boîte noire.",
+        "outputs": ["POC déployé avec stack d'observabilité", "Dashboard de métriques (qualité, coût, latence)", "Rapport d'évaluation avec benchmarks", "Décision go/no-go sur données factuelles"]
       },
       {
         "number": "04",
-        "title": "Production",
-        "duration": "2 à 6 mois",
-        "description": "Implémentation complète, tests d'intégration, mise en production et transfert de compétences à vos équipes.",
-        "outputs": ["Solution en production", "Documentation complète", "CI/CD configuré", "Équipe formée"]
+        "title": "Production & transfert",
+        "description": "Implémentation complète, tests d'intégration SI, hardening sécurité, mise en production supervisée et transfert de compétences structuré à vos équipes. Documentation opérationnelle, pas de dépendance fournisseur.",
+        "outputs": ["Solution en production avec monitoring", "Documentation opérationnelle complète", "CI/CD et infrastructure as code", "Équipe autonome après transfert"]
       }
     ],
     "prerequisites": {
-      "title": "Pas de projet sans...",
-      "subtitle": "Les conditions de réussite d'un projet.",
+      "title": "Conditions de réussite",
+      "subtitle": "Ce que nous demandons avant de démarrer.",
       "items": [
         {
-          "title": "Sponsor exécutif",
-          "description": "Un décideur identifié avec le pouvoir de valider les orientations et débloquer les ressources."
+          "title": "Sponsor identifié côté métier et IT",
+          "description": "Un décideur avec le mandat pour valider les orientations architecturales et arbitrer les priorités. Idéalement un binôme DSI/métier."
         },
         {
-          "title": "Budget validé",
-          "description": "Un budget approuvé et réaliste par rapport aux ambitions du projet."
+          "title": "Budget engagé et réaliste",
+          "description": "Un budget approuvé, dimensionné par rapport au périmètre visé. Nous fournissons une estimation détaillée dès la phase de cadrage."
         },
         {
-          "title": "Équipes disponibles",
-          "description": "Des interlocuteurs métier et techniques accessibles pour les ateliers et les validations."
+          "title": "Interlocuteurs techniques disponibles",
+          "description": "Des référents SI, data et sécurité accessibles pour les ateliers d'architecture et les validations techniques. Pas de proxy."
         },
         {
-          "title": "Données accessibles",
-          "description": "Un accès aux données et systèmes nécessaires, même en environnement de test."
+          "title": "Accès aux systèmes et données",
+          "description": "Un accès effectif aux APIs, bases de données et environnements cibles — au minimum un environnement de développement ou sandbox."
         }
       ]
     }
@@ -284,10 +284,10 @@
   "contact": {
     "meta": {
       "title": "Contact | pulsardata.ai",
-      "description": "Contactez-nous pour un audit gratuit ou une demande de devis. Réponse sous 24h ouvrées."
+      "description": "Cadrage technique ou demande de devis. Réponse d'un architecte senior sous 24h ouvrées."
     },
     "title": "Contact",
-    "subtitle": "Parlons de votre projet.",
+    "subtitle": "Parlons architecture.",
     "form": {
       "name": "Nom",
       "company": "Entreprise",
@@ -297,8 +297,8 @@
       "needTypes": [
         "Architecture agentique",
         "POC & Implémentation",
-        "Audit & Stratégie",
-        "Accompagnement Salesforce",
+        "Audit de maturité & Stratégie",
+        "Accompagnement Salesforce + IA",
         "Autre"
       ],
       "budget": "Budget indicatif",
@@ -310,10 +310,10 @@
         "À définir"
       ],
       "message": "Message",
-      "messagePlaceholder": "Décrivez votre projet, vos contraintes et vos objectifs...",
+      "messagePlaceholder": "Décrivez votre contexte SI, les cas d'usage visés, vos contraintes techniques et réglementaires...",
       "submit": "Envoyer",
-      "success": "Message envoyé. Nous revenons vers vous sous 24h ouvrées.",
-      "error": "Erreur lors de l'envoi. Essayez contact@pulsardata.ai directement."
+      "success": "Message reçu. Un architecte senior revient vers vous sous 24h ouvrées.",
+      "error": "Erreur lors de l'envoi. Contactez-nous directement à contact@pulsardata.ai."
     },
     "info": {
       "response": "Réponse sous 24h ouvrées",
@@ -326,7 +326,7 @@
   },
   "footer": {
     "copyright": "pulsardata.ai",
-    "tagline": "Architecture & Implémentation de Solutions Agentiques Entreprise",
+    "tagline": "Architectes de Systèmes Agentiques pour le SI d'Entreprise",
     "resolution": "",
     "nav": {
       "services": "Services",

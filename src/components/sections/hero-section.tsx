@@ -7,23 +7,23 @@ export function HeroSection() {
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Subtle gradient background */}
+      {/* Subtle radial gradient - not flashy */}
       <div
-        className="absolute inset-0 opacity-40"
+        className="absolute inset-0 opacity-30"
         style={{
           background:
-            "radial-gradient(ellipse 80% 60% at 50% 40%, rgba(16,185,129,0.08) 0%, transparent 70%)",
+            "radial-gradient(ellipse 60% 40% at 50% 45%, rgba(0,255,65,0.04) 0%, transparent 70%)",
         }}
         aria-hidden="true"
       />
       <div className="relative z-10 max-w-4xl mx-auto px-4 text-center py-32">
-        <div className="flex justify-center mb-8">
-          <Logo size={120} />
+        <div className="flex justify-center mb-10">
+          <Logo size={100} />
         </div>
-        <h1 className="text-3xl md:text-5xl lg:text-6xl font-semibold text-text leading-tight mb-6 tracking-tight">
+        <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold leading-tight mb-6">
           {t("title")}
         </h1>
-        <p className="text-base md:text-lg text-text-secondary max-w-2xl mx-auto mb-10 leading-relaxed">
+        <p className="text-base md:text-lg text-text-secondary max-w-2xl mx-auto mb-12 leading-relaxed font-mono text-sm">
           {t("subtitle")}
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">

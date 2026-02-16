@@ -10,10 +10,10 @@ export function FooterSection() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Brand */}
           <div>
-            <p className="text-sm font-semibold text-text mb-1">
+            <p className="text-sm font-semibold text-green-medium font-mono mb-1">
               {t("copyright")}
             </p>
-            <p className="text-text-secondary text-sm">
+            <p className="text-text-muted text-xs font-mono">
               {t("tagline")}
             </p>
           </div>
@@ -24,7 +24,7 @@ export function FooterSection() {
               <Link
                 key={key}
                 href={key === "approach" ? "/approche" : `/${key}`}
-                className="text-sm text-text-secondary hover:text-text transition-colors"
+                className="text-xs font-mono text-text-muted hover:text-green-medium transition-colors uppercase tracking-wider"
               >
                 {t(`nav.${key}`)}
               </Link>
@@ -33,14 +33,14 @@ export function FooterSection() {
               href="https://linkedin.com/in/pleclech"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-sm text-text-secondary hover:text-text transition-colors"
+              className="text-xs font-mono text-text-muted hover:text-green-medium transition-colors uppercase tracking-wider"
             >
               {t("nav.linkedin")}
             </a>
           </div>
 
           {/* Info */}
-          <div className="text-xs text-text-muted space-y-1">
+          <div className="text-xs text-text-muted font-mono space-y-1">
             <p>&copy; {new Date().getFullYear()} pulsardata.ai</p>
             <p>Paris, France</p>
           </div>

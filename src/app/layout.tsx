@@ -1,18 +1,33 @@
 import type { Metadata } from "next";
-import { Inter, IBM_Plex_Mono } from "next/font/google";
+import { Orbitron, Rajdhani, VT323, IBM_Plex_Mono } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({
+const orbitron = Orbitron({
   subsets: ["latin"],
-  variable: "--font-sans",
+  variable: "--font-orbitron",
   display: "swap",
+  weight: ["400", "700", "900"],
+});
+
+const rajdhani = Rajdhani({
+  subsets: ["latin"],
+  variable: "--font-rajdhani",
+  display: "swap",
+  weight: ["300", "400", "500", "600", "700"],
+});
+
+const vt323 = VT323({
+  subsets: ["latin"],
+  variable: "--font-vt323",
+  display: "swap",
+  weight: "400",
 });
 
 const ibmPlexMono = IBM_Plex_Mono({
-  weight: ["400"],
   subsets: ["latin"],
-  variable: "--font-mono",
+  variable: "--font-ibm-plex-mono",
   display: "swap",
+  weight: ["400", "500"],
 });
 
 export const metadata: Metadata = {
@@ -30,7 +45,7 @@ export default function RootLayout({
   return (
     <html suppressHydrationWarning>
       <body
-        className={`${inter.variable} ${ibmPlexMono.variable} min-h-screen flex flex-col antialiased`}
+        className={`${orbitron.variable} ${rajdhani.variable} ${vt323.variable} ${ibmPlexMono.variable} min-h-screen flex flex-col antialiased`}
       >
         {children}
       </body>

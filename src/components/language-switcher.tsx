@@ -27,16 +27,16 @@ export function LanguageSwitcher() {
   };
 
   return (
-    <div className="flex items-center gap-1 text-sm">
+    <div className="flex items-center gap-1 text-xs font-mono">
       {routing.locales.map((loc) => (
         <button
           key={loc}
           onClick={() => switchLocale(loc)}
           className={cn(
-            "px-2 py-1 uppercase transition-colors duration-200 rounded",
+            "px-2 py-1 uppercase tracking-wider transition-all duration-150",
             locale === loc
-              ? "text-bg bg-accent font-medium"
-              : "text-text-secondary hover:text-text"
+              ? "text-green border border-green-dark text-glow-sm"
+              : "text-text-muted hover:text-text-secondary"
           )}
         >
           {loc}

@@ -16,11 +16,11 @@ export function GlowButton({
     <Link
       href={href}
       className={cn(
-        "inline-block px-6 py-3 text-sm font-medium rounded-lg transition-colors duration-200",
+        "inline-block px-7 py-3 text-sm font-semibold tracking-wider uppercase transition-all duration-200",
         variant === "primary" &&
-          "bg-accent text-bg hover:bg-accent-hover",
+          "bg-green text-bg border border-green hover:bg-green-bright hover:shadow-[0_0_20px_rgba(0,255,65,0.3)]",
         variant === "secondary" &&
-          "border border-border text-text-secondary hover:border-accent hover:text-accent",
+          "border border-green-dark text-green-medium hover:border-green hover:text-green hover:shadow-[0_0_12px_rgba(0,255,65,0.15)]",
         className
       )}
     >

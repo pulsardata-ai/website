@@ -1,26 +1,76 @@
 @import "tailwindcss";
 
-@theme inline {
-  --color-bg: #000000;
-  --color-bg-card: #0f172a;
-  --color-bg-card-hover: #1e293b;
-  --color-accent: #10b981;
-  --color-accent-hover: #34d399;
-  --color-accent-muted: rgba(16, 185, 129, 0.1);
-  --color-text: #f1f5f9;
-  --color-text-secondary: #94a3b8;
-  --color-text-muted: #64748b;
-  --color-border: #1e293b;
-  --color-border-hover: #334155;
+/* ═══════════════════════════════════════════
+   HERCULES HGC MONOCHROME CRT THEME
+   pulsardata.ai — Excellence en architecture agentique
+   ═══════════════════════════════════════════ */
 
-  --font-sans: "Inter", system-ui, sans-serif;
-  --font-mono: "IBM Plex Mono", monospace;
+@theme inline {
+  /* --- Hercules Phosphor Palette --- */
+  --color-bg: #010201;
+  --color-bg-elevated: #020604;
+  --color-bg-card: #020b04;
+  --color-bg-card-hover: #041a08;
+
+  --color-green: #00ff41;
+  --color-green-bright: #39ff14;
+  --color-green-medium: #00cc66;
+  --color-green-dim: #00883d;
+  --color-green-dark: #004d1a;
+  --color-green-darker: #00260d;
+
+  --color-text: #d0f0d0;
+  --color-text-secondary: #7daa7d;
+  --color-text-muted: #4a6b4a;
+
+  --color-accent: #00ff41;
+  --color-accent-hover: #39ff14;
+  --color-accent-muted: rgba(0, 255, 65, 0.08);
+
+  --color-border: #0a2a10;
+  --color-border-hover: #00662b;
+  --color-border-glow: #004d1a;
+
+  /* --- Fonts --- */
+  --font-display: var(--font-orbitron), "Courier New", monospace;
+  --font-sans: var(--font-rajdhani), system-ui, sans-serif;
+  --font-mono: var(--font-ibm-plex-mono), "Courier New", monospace;
+  --font-terminal: var(--font-vt323), "Courier New", monospace;
+
+  /* --- Animations --- */
+  --animate-glow-pulse: glow-pulse 3s ease-in-out infinite;
+  --animate-blink: blink 1.2s step-end infinite;
+  --animate-scanline: scanline 8s linear infinite;
+
+  @keyframes glow-pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.7; }
+  }
+
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+  }
+
+  @keyframes scanline {
+    0% { transform: translateY(-100%); }
+    100% { transform: translateY(100vh); }
+  }
+
+  @keyframes flicker {
+    0% { opacity: 0.97; }
+    5% { opacity: 0.94; }
+    10% { opacity: 0.98; }
+    15% { opacity: 0.96; }
+    100% { opacity: 0.97; }
+  }
 }
 
 /* ═══════ Base ═══════ */
 
 html {
   scroll-behavior: smooth;
+  background-color: #000000;
 }
 
 body {
@@ -28,49 +78,132 @@ body {
   color: var(--color-text);
   font-family: var(--font-sans);
   line-height: 1.7;
-  -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: auto; /* CRT feel: slightly rough */
 }
 
 ::selection {
-  background: var(--color-accent);
-  color: var(--color-bg);
+  background: var(--color-green);
+  color: #000000;
 }
 
-/* Scrollbar */
-::-webkit-scrollbar {
-  width: 6px;
-}
-::-webkit-scrollbar-track {
-  background: var(--color-bg);
-}
-::-webkit-scrollbar-thumb {
-  background: var(--color-border);
-  border-radius: 3px;
-}
-::-webkit-scrollbar-thumb:hover {
-  background: var(--color-text-muted);
+/* ═══════ CRT Headings Glow ═══════ */
+
+h1 {
+  font-family: var(--font-display);
+  color: var(--color-green);
+  text-shadow:
+    0 0 7px rgba(0, 255, 65, 0.6),
+    0 0 15px rgba(0, 255, 65, 0.3),
+    0 0 30px rgba(0, 204, 102, 0.15);
+  letter-spacing: 0.02em;
 }
 
-/* ═══════ Link Styles ═══════ */
-
-a {
-  text-decoration: none;
-  transition: color 0.2s ease;
+h2 {
+  font-family: var(--font-display);
+  color: var(--color-green);
+  text-shadow:
+    0 0 5px rgba(0, 255, 65, 0.5),
+    0 0 12px rgba(0, 255, 65, 0.2);
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  font-size: 1.5rem;
 }
 
-a:not([class*="text-"]) {
-  color: var(--color-accent);
+h3, h4 {
+  font-family: var(--font-sans);
+  color: var(--color-text);
 }
 
-a:hover:not([class*="text-"]) {
-  color: var(--color-accent-hover);
-}
+/* ═══════ Scrollbar ═══════ */
 
-/* ═══════ Focus Styles ═══════ */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: var(--color-bg); }
+::-webkit-scrollbar-thumb { background: var(--color-green-dark); border-radius: 2px; }
+::-webkit-scrollbar-thumb:hover { background: var(--color-green-medium); }
+
+/* ═══════ Links ═══════ */
+
+a { text-decoration: none; transition: color 0.15s ease; }
+a:not([class*="text-"]) { color: var(--color-green-medium); }
+a:hover:not([class*="text-"]) { color: var(--color-green); }
+
+/* ═══════ Focus ═══════ */
 
 :focus-visible {
-  outline: 1px solid var(--color-accent);
+  outline: 1px solid var(--color-green);
   outline-offset: 2px;
+  box-shadow: 0 0 8px rgba(0, 255, 65, 0.3);
+}
+
+/* ═══════ CRT Utilities ═══════ */
+
+.text-glow {
+  text-shadow:
+    0 0 7px rgba(0, 255, 65, 0.6),
+    0 0 15px rgba(0, 255, 65, 0.3),
+    0 0 30px rgba(0, 204, 102, 0.15);
+}
+
+.text-glow-sm {
+  text-shadow:
+    0 0 4px rgba(0, 255, 65, 0.4),
+    0 0 8px rgba(0, 204, 102, 0.15);
+}
+
+.box-glow {
+  box-shadow:
+    0 0 4px rgba(0, 255, 65, 0.1),
+    inset 0 0 4px rgba(0, 255, 65, 0.03);
+}
+
+.box-glow-hover:hover {
+  box-shadow:
+    0 0 12px rgba(0, 255, 65, 0.2),
+    0 0 24px rgba(0, 255, 65, 0.05),
+    inset 0 0 8px rgba(0, 255, 65, 0.05);
+}
+
+.border-glow {
+  border-color: var(--color-green-dark);
+  box-shadow: 0 0 6px rgba(0, 255, 65, 0.08);
+}
+
+.cursor-blink::after {
+  content: "█";
+  animation: blink 1.2s step-end infinite;
+  color: var(--color-green);
+  margin-left: 2px;
+}
+
+.font-display { font-family: var(--font-display); }
+.font-terminal { font-family: var(--font-terminal); }
+
+/* ═══════ Scanlines Overlay ═══════ */
+
+.scanlines {
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  background:
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 2px,
+      rgba(0, 255, 65, 0.015) 2px,
+      rgba(0, 255, 65, 0.015) 4px
+    );
+}
+
+.scanlines::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    ellipse at center,
+    transparent 50%,
+    rgba(0, 0, 0, 0.3) 100%
+  );
 }
 
 /* ═══════ Reduced Motion ═══════ */
@@ -81,4 +214,5 @@ a:hover:not([class*="text-"]) {
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
   }
+  .scanlines { display: none; }
 }

@@ -27,6 +27,7 @@ export default async function LocaleLayout({
 
   return (
     <NextIntlClientProvider messages={messages}>
+      <div className="scanlines" aria-hidden="true" />
       <Navbar />
       <main className="flex-1">{children}</main>
       <FooterSection />
