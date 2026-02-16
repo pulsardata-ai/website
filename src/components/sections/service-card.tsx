@@ -36,18 +36,6 @@ export function ServiceCard({ index }: { index: number }) {
         <div className="space-y-4">
           <div>
             <h4 className="font-terminal text-crt-accent text-sm mb-1 uppercase">
-              {t("format_label")}
-            </h4>
-            <p className="text-crt-text-secondary text-sm">{t(`items.${index}.format`)}</p>
-          </div>
-          <div>
-            <h4 className="font-terminal text-crt-accent text-sm mb-1 uppercase">
-              {t("pricing_label")}
-            </h4>
-            <p className="text-crt-green text-sm font-semibold">{t(`items.${index}.pricing`)}</p>
-          </div>
-          <div>
-            <h4 className="font-terminal text-crt-accent text-sm mb-1 uppercase">
               {t("target_label")}
             </h4>
             <p className="text-crt-text-secondary text-sm">{t(`items.${index}.target`)}</p>
