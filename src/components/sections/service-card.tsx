@@ -1,5 +1,5 @@
 import { useTranslations } from "next-intl";
-import { CrtCard } from "@/components/ui/crt-card";
+import { MacosWindow } from "@/components/ui/macos-window";
 
 export function ServiceCard({ index }: { index: number }) {
   const t = useTranslations("services");
@@ -7,11 +7,7 @@ export function ServiceCard({ index }: { index: number }) {
   const deliverableCount = 5;
 
   return (
-    <CrtCard className="mb-8">
-      <h3 className="text-xl font-semibold text-text mb-4">
-        {t(`items.${index}.title`)}
-      </h3>
-
+    <MacosWindow title={t(`items.${index}.title`)} className="mb-8">
       <p className="text-text-secondary mb-6 leading-relaxed">
         {t(`items.${index}.what`)}
       </p>
@@ -42,6 +38,6 @@ export function ServiceCard({ index }: { index: number }) {
           </div>
         </div>
       </div>
-    </CrtCard>
+    </MacosWindow>
   );
 }
