@@ -49,7 +49,7 @@
       },
       {
         "title": "Senior team only",
-        "description": "3 experts, no outsourced juniors. You work directly with the architects who design and implement."
+        "description": "Senior team, no outsourced juniors. You work directly with the architects who design and implement."
       }
     ]
   },
@@ -106,7 +106,7 @@
   "services": {
     "meta": {
       "title": "Services | pulsardata.ai",
-      "description": "Agentic architecture, POC & implementation, strategic audit, and Salesforce + AI consulting. Transparent pricing."
+      "description": "Agentic architecture, POC & implementation, strategic audit, and Salesforce + AI consulting."
     },
     "title": "Services",
     "subtitle": "> cat services.yaml",
@@ -115,14 +115,14 @@
         "title": "Agentic Solutions Architecture",
         "what": "Custom multi-agent architecture design for your business use cases. From orchestration schemas to guardrail specifications, including framework selection and deployment strategy.",
         "deliverables": [
-          "C4/ArchiMate architecture document",
-          "Architecture Decision Records (ADRs)",
-          "Agent specifications (roles, tools, memory)",
-          "Integration plan with existing IS",
-          "Risk matrix and mitigations"
+          "Documented and actionable architecture",
+          "Agent technical specifications",
+          "IS integration plan",
+          "Risk analysis",
+          "Implementation recommendations"
         ],
         "format": "2 to 4 weeks",
-        "pricing": "EUR 15,000 - 30,000",
+        "pricing": "On request",
         "target": "CIO, CTO, Innovation Directors"
       },
       {
@@ -130,27 +130,27 @@
         "what": "From proof-of-concept to production. We develop, test, and deploy your AI agents with an iterative approach and deliverables at each sprint.",
         "deliverables": [
           "Working POC with metrics",
-          "Documented and tested source code",
-          "CI/CD pipeline configured",
-          "Operational documentation",
-          "Internal team training"
+          "Documented source code",
+          "Deployment pipeline",
+          "Documentation and training",
+          "Knowledge transfer"
         ],
         "format": "POC: 4 to 6 weeks / Full: 2 to 6 months",
-        "pricing": "POC: EUR 8,000 - 12,000 / Full: EUR 30,000 - 80,000",
+        "pricing": "On request",
         "target": "Tech teams, Product Owners, CIO"
       },
       {
         "title": "Audit & Agentic Strategy",
         "what": "Assessment of your AI maturity, identification of high-ROI use cases, and implementation roadmap. Includes EU AI Act compliance analysis.",
         "deliverables": [
-          "Audit report with maturity scoring",
+          "Audit report and maturity scoring",
           "Prioritized use case mapping",
           "EU AI Act compliance analysis",
-          "6-18 month roadmap",
-          "Detailed budget estimation"
+          "Implementation roadmap",
+          "Budget estimation"
         ],
         "format": "1 to 2 weeks",
-        "pricing": "EUR 8,000 - 15,000",
+        "pricing": "On request",
         "target": "C-suite, CDO, Strategy Directors"
       },
       {
@@ -158,10 +158,10 @@
         "what": "AI agent integration in your Salesforce ecosystem: Agentforce, Einstein, augmented flows, CRM integration with external LLMs.",
         "deliverables": [
           "Salesforce + agent integration architecture",
-          "Agentforce configuration and customization",
+          "Agentforce / Einstein configuration",
           "Augmented flow development",
-          "Integration and performance testing",
-          "Documentation and knowledge transfer"
+          "Testing and validation",
+          "Documentation and transfer"
         ],
         "format": "Custom",
         "pricing": "On request",
@@ -176,16 +176,16 @@
   "expertise": {
     "meta": {
       "title": "Expertise | pulsardata.ai",
-      "description": "18+ years of enterprise IS architecture. Solution Architect, Kering Design Authority, Salesforce and agentic systems expertise."
+      "description": "18+ years of enterprise IS architecture. Solution Architect, Design Authority for international luxury group, Salesforce and agentic systems expertise."
     },
     "title": "Expertise",
     "subtitle": "> whoami --verbose",
     "pascal": {
       "name": "Pascal Le Clech",
-      "role": "Founder & Solution Architect",
-      "bio": "18+ years of experience in enterprise information systems architecture. Former Design Authority at Kering (Gucci, Saint Laurent, Balenciaga) where he designed and supervised the group's IS architectures. Deep expertise in complex systems integration, API management, and technical governance.",
+      "role": "Co-founder & Solution Architect",
+      "bio": "18+ years of experience in enterprise information systems architecture. Former Design Authority for an international luxury group where he designed and supervised multi-brand IS architectures. Deep expertise in complex systems integration, API management, and technical governance.",
       "highlights": [
-        "Design Authority - Kering Group",
+        "Design Authority - International luxury group",
         "Certified Salesforce Solution Architect",
         "18+ years enterprise IS architecture",
         "Complex systems integration expert"
@@ -194,14 +194,9 @@
     "team": {
       "title": "The team",
       "matthieu": {
-        "name": "Matthieu",
-        "role": "Full-Stack & AI Developer",
-        "description": "Specialized in agentic systems implementation and LLM integration in enterprise architectures."
-      },
-      "alexandre": {
-        "name": "Alexandre",
-        "role": "Full-Stack & AI Developer",
-        "description": "Expert in autonomous agent development, data pipelines, and continuous integration of AI solutions."
+        "name": "Matthieu Le Clech",
+        "role": "Co-founder & CEO Pragmatan",
+        "description": "Entrepreneur and founder of Pragmatan, a leading French RPO (Recruitment Process Outsourcing) firm with 200+ employees. Expertise in scaling organizations, commercial strategy, and business development in the IT sector."
       }
     },
     "techStack": {

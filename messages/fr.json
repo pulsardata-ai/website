@@ -49,7 +49,7 @@
       },
       {
         "title": "Équipe senior uniquement",
-        "description": "3 experts, pas de juniors en sous-traitance. Vous travaillez directement avec les architectes qui conçoivent et implémentent."
+        "description": "Équipe senior, pas de juniors en sous-traitance. Vous travaillez directement avec les architectes qui conçoivent et implémentent."
       }
     ]
   },
@@ -106,7 +106,7 @@
   "services": {
     "meta": {
       "title": "Services | pulsardata.ai",
-      "description": "Architecture agentique, POC & implémentation, audit stratégique et accompagnement Salesforce + IA. Tarifs transparents."
+      "description": "Architecture agentique, POC & implémentation, audit stratégique et accompagnement Salesforce + IA."
     },
     "title": "Services",
     "subtitle": "> cat services.yaml",
@@ -115,14 +115,14 @@
         "title": "Architecture de Solutions Agentiques",
         "what": "Conception d'architectures multi-agents sur mesure pour vos cas d'usage métier. Du schéma d'orchestration à la spécification des guardrails, en passant par le choix des frameworks et la stratégie de déploiement.",
         "deliverables": [
-          "Document d'architecture C4/ArchiMate",
-          "Architecture Decision Records (ADRs)",
-          "Spécification des agents (rôles, outils, mémoire)",
-          "Plan d'intégration avec le SI existant",
-          "Matrice des risques et mitigations"
+          "Architecture documentée et actionnable",
+          "Spécifications techniques des agents",
+          "Plan d'intégration SI",
+          "Analyse des risques",
+          "Recommandations d'implémentation"
         ],
         "format": "2 à 4 semaines",
-        "pricing": "15 000 – 30 000 €",
+        "pricing": "Sur devis",
         "target": "DSI, CTO, Directeurs Innovation"
       },
       {
@@ -130,27 +130,27 @@
         "what": "Du proof-of-concept à la mise en production. Nous développons, testons et déployons vos agents IA avec une approche itérative et des livrables à chaque sprint.",
         "deliverables": [
           "POC fonctionnel avec métriques",
-          "Code source documenté et testé",
-          "Pipeline CI/CD configuré",
-          "Documentation opérationnelle",
-          "Formation de l'équipe interne"
+          "Code source documenté",
+          "Pipeline de déploiement",
+          "Documentation et formation",
+          "Transfert de compétences"
         ],
         "format": "POC : 4 à 6 semaines / Full : 2 à 6 mois",
-        "pricing": "POC : 8 000 – 12 000 € / Full : 30 000 – 80 000 €",
+        "pricing": "Sur devis",
         "target": "Équipes tech, Product Owners, DSI"
       },
       {
         "title": "Audit & Stratégie Agentique",
         "what": "Évaluation de votre maturité IA, identification des cas d'usage à fort ROI et feuille de route d'implémentation. Inclut l'analyse de conformité EU AI Act.",
         "deliverables": [
-          "Rapport d'audit avec scoring de maturité",
+          "Rapport d'audit et scoring de maturité",
           "Cartographie des cas d'usage priorisés",
           "Analyse de conformité EU AI Act",
-          "Feuille de route 6-18 mois",
-          "Estimation budgétaire détaillée"
+          "Feuille de route d'implémentation",
+          "Estimation budgétaire"
         ],
         "format": "1 à 2 semaines",
-        "pricing": "8 000 – 15 000 €",
+        "pricing": "Sur devis",
         "target": "COMEX, CDO, Directeurs Stratégie"
       },
       {
@@ -158,10 +158,10 @@
         "what": "Intégration d'agents IA dans votre écosystème Salesforce : Agentforce, Einstein, flows augmentés, intégration CRM avec LLMs externes.",
         "deliverables": [
           "Architecture d'intégration Salesforce + agents",
-          "Configuration et personnalisation Agentforce",
+          "Configuration Agentforce / Einstein",
           "Développement de flows augmentés",
-          "Tests d'intégration et performance",
-          "Documentation et transfert de compétences"
+          "Tests et validation",
+          "Documentation et transfert"
         ],
         "format": "Sur mesure",
         "pricing": "Sur devis",
@@ -176,16 +176,16 @@
   "expertise": {
     "meta": {
       "title": "Expertise | pulsardata.ai",
-      "description": "18+ ans d'architecture SI entreprise. Solution Architect, Design Authority Kering, expertise Salesforce et systèmes agentiques."
+      "description": "18+ ans d'architecture SI entreprise. Solution Architect, Design Authority groupe international du luxe, expertise Salesforce et systèmes agentiques."
     },
     "title": "Expertise",
     "subtitle": "> whoami --verbose",
     "pascal": {
       "name": "Pascal Le Clech",
-      "role": "Fondateur & Solution Architect",
-      "bio": "18+ ans d'expérience en architecture de systèmes d'information d'entreprise. Ancien Design Authority chez Kering (Gucci, Saint Laurent, Balenciaga) où il a conçu et supervisé les architectures SI du groupe. Expertise pointue en intégration de systèmes complexes, API management et gouvernance technique.",
+      "role": "Co-fondateur & Solution Architect",
+      "bio": "18+ ans d'expérience en architecture de systèmes d'information d'entreprise. Ancien Design Authority d'un groupe international du luxe où il a conçu et supervisé les architectures SI multi-marques. Expertise pointue en intégration de systèmes complexes, API management et gouvernance technique.",
       "highlights": [
-        "Design Authority – Kering Group",
+        "Design Authority – Groupe international du luxe",
         "Solution Architect certifié Salesforce",
         "18+ ans d'architecture SI enterprise",
         "Expert intégration systèmes complexes"
@@ -194,14 +194,9 @@
     "team": {
       "title": "L'équipe",
       "matthieu": {
-        "name": "Matthieu",
-        "role": "Développeur Full-Stack & IA",
-        "description": "Spécialisé dans l'implémentation de systèmes agentiques et l'intégration de LLMs dans les architectures d'entreprise."
-      },
-      "alexandre": {
-        "name": "Alexandre",
-        "role": "Développeur Full-Stack & IA",
-        "description": "Expert en développement d'agents autonomes, pipelines de données et intégration continue de solutions IA."
+        "name": "Matthieu Le Clech",
+        "role": "Co-fondateur & CEO Pragmatan",
+        "description": "Entrepreneur et fondateur de Pragmatan, leader français du RPO (Recruitment Process Outsourcing) avec 200+ collaborateurs. Expertise en scaling d'organisations, stratégie commerciale et développement business dans le secteur IT."
       }
     },
     "techStack": {

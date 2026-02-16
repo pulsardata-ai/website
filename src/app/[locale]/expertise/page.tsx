@@ -59,20 +59,18 @@ export default function ExpertisePage() {
         <h3 className="font-heading text-xl text-crt-green text-glow mb-6">
           {t("team.title")}
         </h3>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
-          {(["matthieu", "alexandre"] as const).map((member) => (
-            <CrtCard key={member} title={`${member}.profile`}>
-              <h4 className="font-heading text-base text-crt-green mb-1">
-                {t(`team.${member}.name`)}
-              </h4>
-              <p className="font-terminal text-crt-accent text-xs mb-3">
-                {t(`team.${member}.role`)}
-              </p>
-              <p className="text-crt-text-secondary text-sm leading-relaxed">
-                {t(`team.${member}.description`)}
-              </p>
-            </CrtCard>
-          ))}
+        <div className="max-w-xl mb-12">
+          <CrtCard title="matthieu.profile">
+            <h4 className="font-heading text-base text-crt-green mb-1">
+              {t("team.matthieu.name")}
+            </h4>
+            <p className="font-terminal text-crt-accent text-xs mb-3">
+              {t("team.matthieu.role")}
+            </p>
+            <p className="text-crt-text-secondary text-sm leading-relaxed">
+              {t("team.matthieu.description")}
+            </p>
+          </CrtCard>
         </div>
 
         {/* Tech stack */}
