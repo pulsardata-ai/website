@@ -34,7 +34,7 @@ export function Navbar() {
     <nav className="fixed top-0 left-0 right-0 z-40 bg-bg/80 border-b border-border backdrop-blur-sm">
       <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
         <Link href={prefix + "/"} className="flex items-center gap-3">
-          <Logo size={32} priority={false} />
+          <Logo size={44} priority={false} />
           <span className="text-sm font-semibold text-text hidden sm:inline">
             pulsardata.ai
           </span>
