@@ -1,0 +1,350 @@
+{
+  "meta": {
+    "title": "pulsardata.ai | Architecture & Implémentation de Solutions Agentiques Entreprise",
+    "description": "Consultance boutique spécialisée en architecture et implémentation de solutions agentiques pour l'entreprise. Expertise Salesforce, EU AI Act, intégration stack existant.",
+    "ogTitle": "pulsardata.ai - Solutions Agentiques Entreprise",
+    "ogDescription": "Architecture, implémentation et conformité de solutions IA agentiques. Équipe senior, approche pragmatique, résultats mesurables."
+  },
+  "nav": {
+    "home": "Accueil",
+    "services": "Services",
+    "expertise": "Expertise",
+    "approach": "Approche",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Architecture & Implémentation de Solutions Agentiques Entreprise",
+    "subtitle": "Nous concevons et déployons des agents IA qui s'intègrent à votre stack existant, respectent vos contraintes réglementaires et délivrent des résultats mesurables.",
+    "cta1": "Audit gratuit 30 min",
+    "cta2": "Découvrir nos services"
+  },
+  "valueProposition": {
+    "title": "Ce que nous faisons",
+    "items": [
+      {
+        "title": "Architecture Agentique",
+        "description": "Conception de systèmes multi-agents sur mesure : orchestration, mémoire, outils, guardrails. Architectures documentées en C4/ArchiMate, ADRs inclus."
+      },
+      {
+        "title": "Conformité EU AI Act",
+        "description": "Classification des risques, documentation technique, registre des systèmes IA, évaluation d'impact. Prêt pour l'audit avant la deadline."
+      },
+      {
+        "title": "Intégration Stack Existant",
+        "description": "Salesforce, SAP, ServiceNow, legacy APIs. Vos agents s'intègrent à votre SI sans migration disruptive ni dette technique supplémentaire."
+      }
+    ]
+  },
+  "differentiators": {
+    "title": "Notre approche",
+    "subtitle": "> pas_de_bullshit.exe",
+    "items": [
+      {
+        "title": "Pas d'études sans livrables",
+        "description": "Chaque mission produit du code, de l'architecture documentée ou un POC fonctionnel. Zéro slide deck sans substance."
+      },
+      {
+        "title": "Architectures validées en prod",
+        "description": "18+ ans d'architecture SI enterprise. Nos designs passent les revues d'architecture, les audits sécurité et les contraintes de scalabilité."
+      },
+      {
+        "title": "Équipe senior uniquement",
+        "description": "3 experts, pas de juniors en sous-traitance. Vous travaillez directement avec les architectes qui conçoivent et implémentent."
+      }
+    ]
+  },
+  "useCases": {
+    "title": "Cas d'usage",
+    "subtitle": "> use_cases --sector=enterprise",
+    "items": [
+      {
+        "sector": "Aérospatial",
+        "title": "Devis technique automatisé",
+        "description": "Agent de génération de devis complexes intégrant nomenclatures, contraintes réglementaires et historique fournisseurs."
+      },
+      {
+        "sector": "Luxe & Retail",
+        "title": "Conformité GDPR multi-marques",
+        "description": "Système agentique de surveillance et remédiation des flux de données clients à travers les marques d'un groupe."
+      },
+      {
+        "sector": "CRM & Ventes",
+        "title": "CRM agentique Salesforce",
+        "description": "Agents intégrés à Salesforce pour qualification automatique, enrichissement de leads et recommandations de next-best-action."
+      },
+      {
+        "sector": "Pharma & Santé",
+        "title": "Documentation réglementée",
+        "description": "Génération et vérification automatisée de documentation conforme aux normes FDA/EMA avec traçabilité complète."
+      },
+      {
+        "sector": "Services Financiers",
+        "title": "Customer service intelligent",
+        "description": "Agents conversationnels de niveau 1-2 avec escalade intelligente, conformes aux exigences bancaires (DORA, MiFID II)."
+      },
+      {
+        "sector": "Data & Gouvernance",
+        "title": "Data governance agentique",
+        "description": "Agents de catalogage, lignage et qualité des données, intégrés à vos outils de data management existants."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Prêt à commencer ?",
+    "subtitle": "Deux façons de démarrer, zéro engagement.",
+    "audit": {
+      "title": "Audit gratuit 30 min",
+      "description": "Un échange technique avec un architecte senior pour évaluer votre cas d'usage et identifier les quick wins.",
+      "button": "Réserver un créneau"
+    },
+    "whitepaper": {
+      "title": "Livre blanc technique",
+      "description": "\"Architecture de Solutions Agentiques en Entreprise\" - Patterns, anti-patterns et guide d'implémentation.",
+      "button": "Télécharger le livre blanc"
+    }
+  },
+  "services": {
+    "meta": {
+      "title": "Services | pulsardata.ai",
+      "description": "Architecture agentique, POC & implémentation, audit stratégique et accompagnement Salesforce + IA. Tarifs transparents."
+    },
+    "title": "Services",
+    "subtitle": "> cat services.yaml",
+    "items": [
+      {
+        "title": "Architecture de Solutions Agentiques",
+        "what": "Conception d'architectures multi-agents sur mesure pour vos cas d'usage métier. Du schéma d'orchestration à la spécification des guardrails, en passant par le choix des frameworks et la stratégie de déploiement.",
+        "deliverables": [
+          "Document d'architecture C4/ArchiMate",
+          "Architecture Decision Records (ADRs)",
+          "Spécification des agents (rôles, outils, mémoire)",
+          "Plan d'intégration avec le SI existant",
+          "Matrice des risques et mitigations"
+        ],
+        "format": "2 à 4 semaines",
+        "pricing": "15 000 – 30 000 €",
+        "target": "DSI, CTO, Directeurs Innovation"
+      },
+      {
+        "title": "POC & Implémentation",
+        "what": "Du proof-of-concept à la mise en production. Nous développons, testons et déployons vos agents IA avec une approche itérative et des livrables à chaque sprint.",
+        "deliverables": [
+          "POC fonctionnel avec métriques",
+          "Code source documenté et testé",
+          "Pipeline CI/CD configuré",
+          "Documentation opérationnelle",
+          "Formation de l'équipe interne"
+        ],
+        "format": "POC : 4 à 6 semaines / Full : 2 à 6 mois",
+        "pricing": "POC : 8 000 – 12 000 € / Full : 30 000 – 80 000 €",
+        "target": "Équipes tech, Product Owners, DSI"
+      },
+      {
+        "title": "Audit & Stratégie Agentique",
+        "what": "Évaluation de votre maturité IA, identification des cas d'usage à fort ROI et feuille de route d'implémentation. Inclut l'analyse de conformité EU AI Act.",
+        "deliverables": [
+          "Rapport d'audit avec scoring de maturité",
+          "Cartographie des cas d'usage priorisés",
+          "Analyse de conformité EU AI Act",
+          "Feuille de route 6-18 mois",
+          "Estimation budgétaire détaillée"
+        ],
+        "format": "1 à 2 semaines",
+        "pricing": "8 000 – 15 000 €",
+        "target": "COMEX, CDO, Directeurs Stratégie"
+      },
+      {
+        "title": "Accompagnement Salesforce + IA",
+        "what": "Intégration d'agents IA dans votre écosystème Salesforce : Agentforce, Einstein, flows augmentés, intégration CRM avec LLMs externes.",
+        "deliverables": [
+          "Architecture d'intégration Salesforce + agents",
+          "Configuration et personnalisation Agentforce",
+          "Développement de flows augmentés",
+          "Tests d'intégration et performance",
+          "Documentation et transfert de compétences"
+        ],
+        "format": "Sur mesure",
+        "pricing": "Sur devis",
+        "target": "Équipes Salesforce, Admins CRM, DSI"
+      }
+    ],
+    "deliverables_label": "Livrables",
+    "format_label": "Format",
+    "pricing_label": "Tarif",
+    "target_label": "Pour qui"
+  },
+  "expertise": {
+    "meta": {
+      "title": "Expertise | pulsardata.ai",
+      "description": "18+ ans d'architecture SI entreprise. Solution Architect, Design Authority Kering, expertise Salesforce et systèmes agentiques."
+    },
+    "title": "Expertise",
+    "subtitle": "> whoami --verbose",
+    "pascal": {
+      "name": "Pascal Le Clech",
+      "role": "Fondateur & Solution Architect",
+      "bio": "18+ ans d'expérience en architecture de systèmes d'information d'entreprise. Ancien Design Authority chez Kering (Gucci, Saint Laurent, Balenciaga) où il a conçu et supervisé les architectures SI du groupe. Expertise pointue en intégration de systèmes complexes, API management et gouvernance technique.",
+      "highlights": [
+        "Design Authority – Kering Group",
+        "Solution Architect certifié Salesforce",
+        "18+ ans d'architecture SI enterprise",
+        "Expert intégration systèmes complexes"
+      ]
+    },
+    "team": {
+      "title": "L'équipe",
+      "matthieu": {
+        "name": "Matthieu",
+        "role": "Développeur Full-Stack & IA",
+        "description": "Spécialisé dans l'implémentation de systèmes agentiques et l'intégration de LLMs dans les architectures d'entreprise."
+      },
+      "alexandre": {
+        "name": "Alexandre",
+        "role": "Développeur Full-Stack & IA",
+        "description": "Expert en développement d'agents autonomes, pipelines de données et intégration continue de solutions IA."
+      }
+    },
+    "techStack": {
+      "title": "Compétences techniques",
+      "categories": [
+        {
+          "title": "Frameworks Agentiques",
+          "items": ["LangChain / LangGraph", "CrewAI", "AutoGen", "Semantic Kernel", "Salesforce Agentforce"]
+        },
+        {
+          "title": "Architectures & Patterns",
+          "items": ["Multi-agent orchestration", "RAG avancé", "Function calling", "Agent memory systems", "Guardrails & safety"]
+        },
+        {
+          "title": "Enterprise",
+          "items": ["Salesforce (Sales, Service, Marketing Cloud)", "SAP integration", "ServiceNow", "API Management (MuleSoft, Apigee)", "Event-driven architecture"]
+        },
+        {
+          "title": "Conformité & Gouvernance",
+          "items": ["EU AI Act", "GDPR / RGPD", "DORA", "ISO 27001", "C4 / ArchiMate / ADR"]
+        }
+      ]
+    }
+  },
+  "approach": {
+    "meta": {
+      "title": "Approche | pulsardata.ai",
+      "description": "Notre méthodologie en 4 phases : découverte, audit, POC, production. Approche pragmatique, livrables concrets, zéro bullshit."
+    },
+    "title": "Notre Approche",
+    "subtitle": "> ./methodology --phases=4",
+    "phases": [
+      {
+        "number": "01",
+        "title": "Découverte",
+        "duration": "30 min – Gratuit",
+        "description": "Échange technique pour comprendre votre contexte, identifier les cas d'usage et évaluer la faisabilité. Aucun engagement.",
+        "outputs": ["Compréhension du contexte métier", "Identification des quick wins", "Estimation de faisabilité", "Proposition d'approche"]
+      },
+      {
+        "number": "02",
+        "title": "Audit & Architecture",
+        "duration": "1 à 4 semaines",
+        "description": "Analyse approfondie de votre SI, conception de l'architecture cible et planification de l'implémentation.",
+        "outputs": ["Document d'architecture", "ADRs et spécifications", "Plan d'intégration", "Estimation budgétaire"]
+      },
+      {
+        "number": "03",
+        "title": "POC",
+        "duration": "4 à 6 semaines",
+        "description": "Développement d'un proof-of-concept fonctionnel sur un périmètre restreint pour valider l'approche et mesurer les résultats.",
+        "outputs": ["POC déployable", "Métriques de performance", "Rapport de validation", "Go/no-go argumenté"]
+      },
+      {
+        "number": "04",
+        "title": "Production",
+        "duration": "2 à 6 mois",
+        "description": "Implémentation complète, tests d'intégration, mise en production et transfert de compétences à vos équipes.",
+        "outputs": ["Solution en production", "Documentation complète", "CI/CD configuré", "Équipe formée"]
+      }
+    ],
+    "prerequisites": {
+      "title": "Pas de projet sans...",
+      "subtitle": "> assert prerequisites --strict",
+      "items": [
+        {
+          "title": "Sponsor exécutif",
+          "description": "Un décideur identifié avec le pouvoir de valider les orientations et débloquer les ressources."
+        },
+        {
+          "title": "Budget validé",
+          "description": "Un budget approuvé et réaliste par rapport aux ambitions du projet."
+        },
+        {
+          "title": "Équipes disponibles",
+          "description": "Des interlocuteurs métier et techniques accessibles pour les ateliers et les validations."
+        },
+        {
+          "title": "Données accessibles",
+          "description": "Un accès aux données et systèmes nécessaires, même en environnement de test."
+        }
+      ]
+    }
+  },
+  "contact": {
+    "meta": {
+      "title": "Contact | pulsardata.ai",
+      "description": "Contactez-nous pour un audit gratuit ou une demande de devis. Réponse sous 24h ouvrées."
+    },
+    "title": "Contact",
+    "subtitle": "> ssh contact@pulsardata.ai",
+    "form": {
+      "name": "Nom",
+      "company": "Entreprise",
+      "email": "Email",
+      "phone": "Téléphone",
+      "needType": "Type de besoin",
+      "needTypes": [
+        "Architecture agentique",
+        "POC & Implémentation",
+        "Audit & Stratégie",
+        "Accompagnement Salesforce",
+        "Autre"
+      ],
+      "budget": "Budget indicatif",
+      "budgets": [
+        "< 10 000 €",
+        "10 000 – 30 000 €",
+        "30 000 – 80 000 €",
+        "> 80 000 €",
+        "À définir"
+      ],
+      "message": "Message",
+      "messagePlaceholder": "Décrivez votre projet, vos contraintes et vos objectifs...",
+      "submit": "Envoyer",
+      "success": "Message envoyé. Nous revenons vers vous sous 24h ouvrées.",
+      "error": "Erreur lors de l'envoi. Essayez contact@pulsardata.ai directement."
+    },
+    "info": {
+      "response": "Réponse sous 24h ouvrées",
+      "email": "contact@pulsardata.ai",
+      "linkedin": "linkedin.com/in/pleclech",
+      "github": "github.com/pulsardata-ai",
+      "siret": "SIRET : 000 000 000 00000",
+      "address": "Paris, France"
+    }
+  },
+  "footer": {
+    "copyright": "pulsardata.ai",
+    "tagline": "Architecture & Implémentation de Solutions Agentiques",
+    "resolution": "720x348 thinking...",
+    "nav": {
+      "services": "Services",
+      "expertise": "Expertise",
+      "approach": "Approche",
+      "contact": "Contact",
+      "linkedin": "LinkedIn"
+    }
+  },
+  "notFound": {
+    "title": "404",
+    "subtitle": "SEGFAULT : page introuvable",
+    "description": "L'adresse demandée n'existe pas ou a été déplacée.",
+    "back": "Retour à l'accueil"
+  }
+}

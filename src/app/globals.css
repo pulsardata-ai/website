@@ -1,0 +1,216 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-crt-bg: #020402;
+  --color-crt-green: #00ff41;
+  --color-crt-green-medium: #00cc66;
+  --color-crt-green-dark: #004d1a;
+  --color-crt-text: #e0ffe0;
+  --color-crt-text-secondary: #88cc88;
+  --color-crt-accent: #39ff14;
+  --color-crt-border: #00ff4133;
+  --color-crt-border-hover: #00ff4166;
+
+  --font-heading: "Orbitron", sans-serif;
+  --font-body: "IBM Plex Mono", monospace;
+  --font-terminal: "VT323", monospace;
+}
+
+/* ═══════ Base ═══════ */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-crt-bg);
+  color: var(--color-crt-text);
+  font-family: var(--font-body);
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-crt-green);
+  text-shadow: 0 0 10px var(--color-crt-green-dark);
+}
+
+::selection {
+  background: var(--color-crt-green);
+  color: var(--color-crt-bg);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-crt-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-crt-green-dark);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-crt-green-medium);
+}
+
+/* ═══════ Text Glow Utilities ═══════ */
+
+.text-glow {
+  text-shadow:
+    0 0 7px var(--color-crt-green),
+    0 0 10px var(--color-crt-green-dark);
+}
+
+.text-glow-md {
+  text-shadow:
+    0 0 7px var(--color-crt-green),
+    0 0 20px var(--color-crt-green-dark),
+    0 0 40px var(--color-crt-green-dark);
+}
+
+.text-glow-lg {
+  text-shadow:
+    0 0 7px var(--color-crt-green),
+    0 0 20px var(--color-crt-green-medium),
+    0 0 40px var(--color-crt-green-dark),
+    0 0 80px var(--color-crt-green-dark);
+}
+
+/* ═══════ Box Glow ═══════ */
+
+.box-glow {
+  box-shadow:
+    0 0 5px var(--color-crt-green-dark),
+    inset 0 0 5px rgba(0, 255, 65, 0.03);
+}
+
+.box-glow-hover:hover {
+  box-shadow:
+    0 0 10px var(--color-crt-green-dark),
+    0 0 20px rgba(0, 255, 65, 0.1),
+    inset 0 0 10px rgba(0, 255, 65, 0.05);
+}
+
+/* ═══════ Cursor Blink ═══════ */
+
+.cursor-blink::after {
+  content: "█";
+  animation: blink 1s step-end infinite;
+  color: var(--color-crt-green);
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+/* ═══════ CRT Boot Animation ═══════ */
+
+.crt-boot {
+  animation: crt-on 0.8s ease-out forwards;
+}
+
+@keyframes crt-on {
+  0% {
+    opacity: 0;
+    transform: scaleY(0.005) scaleX(0.3);
+    filter: brightness(10);
+  }
+  30% {
+    opacity: 1;
+    transform: scaleY(0.005) scaleX(1);
+    filter: brightness(5);
+  }
+  50% {
+    transform: scaleY(1) scaleX(1);
+    filter: brightness(2);
+  }
+  100% {
+    transform: scaleY(1) scaleX(1);
+    filter: brightness(1);
+    opacity: 1;
+  }
+}
+
+/* ═══════ Scanlines Overlay ═══════ */
+
+.scanlines {
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  background: repeating-linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.06) 0px,
+    rgba(0, 0, 0, 0.06) 1px,
+    transparent 1px,
+    transparent 3px
+  );
+}
+
+.scanlines::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    ellipse at center,
+    transparent 60%,
+    rgba(0, 0, 0, 0.4) 100%
+  );
+}
+
+/* ═══════ Terminal Prompt ═══════ */
+
+.terminal-prompt::before {
+  content: "> ";
+  color: var(--color-crt-green);
+  font-family: var(--font-terminal);
+}
+
+/* ═══════ Link Styles ═══════ */
+
+a:not([class*="text-"]) {
+  color: var(--color-crt-green);
+}
+
+a {
+  text-decoration: none;
+  transition: text-shadow 0.2s ease;
+}
+
+a:hover {
+  text-shadow: 0 0 8px var(--color-crt-green-dark);
+}
+
+/* ═══════ Focus Styles ═══════ */
+
+:focus-visible {
+  outline: 1px solid var(--color-crt-green);
+  outline-offset: 2px;
+}
+
+/* ═══════ Reduced Motion ═══════ */
+
+@media (prefers-reduced-motion: reduce) {
+  .crt-boot {
+    animation: none;
+    opacity: 1;
+  }
+  .cursor-blink::after {
+    animation: none;
+    opacity: 1;
+  }
+  .scanlines {
+    display: none;
+  }
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
