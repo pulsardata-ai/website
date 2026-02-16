@@ -4,7 +4,7 @@ import { useState } from "react";
 import { useTranslations, useLocale } from "next-intl";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Logo } from "@/components/logo";
+import Image from "next/image";
 import { LanguageSwitcher } from "@/components/language-switcher";
 import { cn } from "@/lib/utils";
 
@@ -34,7 +34,7 @@ export function Navbar() {
     <nav className="fixed top-0 left-0 right-0 z-40 bg-bg/80 border-b border-border backdrop-blur-sm">
       <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
         <Link href={prefix + "/"} className="flex items-center gap-3">
-          <Logo size={44} priority={false} />
+          <Image src="/logo-pulsardata-spirale.jpeg" alt="pulsardata.ai" width={44} height={44} sizes="44px" className="rounded-full" />
           <span className="text-sm font-semibold text-text hidden sm:inline">
             pulsardata.ai
           </span>
