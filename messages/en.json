@@ -18,6 +18,14 @@
     "cta1": "Book a technical deep-dive",
     "cta2": "See what we deliver"
   },
+  "codeShowcase": {
+    "label": "What we actually ship",
+    "caption": "Google ADK — Multi-agent topology with bounded MCP tools per agent, sequential pipeline, and human review checkpoint. Architect-grade code, not a demo."
+  },
+  "archimate": {
+    "label": "Architecture — ArchiMate view",
+    "caption": "ArchiMate integration view: business layer, application layer (agents), technology layer. Each agent is bounded to its MCP tools, orchestrated by a pipeline, supervised by a human."
+  },
   "valueProposition": {
     "title": "What we architect",
     "items": [
@@ -75,6 +83,10 @@
         "description": "Teams whose processes are automated need to understand what the agent does, when it acts, and how to supervise it. We deliver governance documentation, supervision procedures, and training so your teams govern — not endure — the automation."
       }
     ]
+  },
+  "governanceDiagram": {
+    "label": "Governance — agent acceptance process",
+    "caption": "Agentic governance framework: 9 steps from request to continuous monitoring, 2 validation gates (CTO/CISO and board), RACI role matrix. Every deployed agent is tracked, validated, and supervised."
   },
   "useCases": {
     "title": "Where this matters",

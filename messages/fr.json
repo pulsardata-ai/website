@@ -18,6 +18,14 @@
     "cta1": "Cadrage technique 30 min",
     "cta2": "Découvrir nos services"
   },
+  "codeShowcase": {
+    "label": "Ce que nous livrons",
+    "caption": "Google ADK — Topologie multi-agents avec outils MCP bornés par agent, pipeline séquentiel et checkpoint de validation humaine. Du code d'architecte, pas de démo."
+  },
+  "archimate": {
+    "label": "Architecture — vue ArchiMate",
+    "caption": "Vue d'intégration ArchiMate : couche métier, couche applicative (agents), couche technologique. Chaque agent est borné à ses outils MCP, orchestré par un pipeline, supervisé par un humain."
+  },
   "valueProposition": {
     "title": "Notre périmètre d'intervention",
     "items": [
@@ -75,6 +83,10 @@
         "description": "Les équipes qui voient leurs processus automatisés doivent comprendre ce que l'agent fait, quand il intervient, et comment le superviser. Nous livrons la documentation de gouvernance, les procédures de supervision et les formations nécessaires pour que vos équipes pilotent — pas subissent — l'automatisation."
       }
     ]
+  },
+  "governanceDiagram": {
+    "label": "Gouvernance — processus d'acceptation des agents",
+    "caption": "Framework de gouvernance agentique : 9 étapes du request au monitoring continu, 2 gates de validation (DSI/RSSI et COMEX), matrice RACI des rôles. Chaque agent déployé est tracé, validé et supervisé."
   },
   "useCases": {
     "title": "Cas d'usage",

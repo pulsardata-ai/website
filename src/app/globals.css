@@ -206,6 +206,12 @@ a:hover:not([class*="text-"]) { color: var(--color-green); }
   );
 }
 
+/* ═══════ React Flow Overrides ═══════ */
+
+.react-flow__handle { opacity: 0 !important; }
+.react-flow__edge-path { stroke-linecap: round; }
+.react-flow__background { opacity: 0.3; }
+
 /* ═══════ Reduced Motion ═══════ */
 
 @media (prefers-reduced-motion: reduce) {
